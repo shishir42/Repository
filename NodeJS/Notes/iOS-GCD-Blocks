@@ -1,0 +1,37 @@
+4. A Responsive App - Responsive UI - Don’t make the user wait 4
+5. GCD - Getting Started Basics of blocks in Objective-C 5 - Segment of code - Passed around as parameters - Stored in variables - Called like C functions () ^{ // Some code };
+6. What is GCD about? “…technology that you use to manage the execution of tasks in your app…” - Apple Docs 6
+7. - C API (mostly) - Open source! - Task = ^{} GCD - Intro 7
+8. - Schedule tasks - dispatch_queue - Synchronize tasks - dispatch_group - Serialize asynchronous tasks - dispatch_suspend and dispatch_resume GCD Techniques 8
+9. Scheduling Tasks with GCD
+10. GCD - Scheduling Tasks with Queues Queues Serial Concurrent 10
+11. GCD - Scheduling Tasks with Queues Queues ^{1}^{2} ^{1}^{2}^{3} ^{3} 11
+12. dispatch_queue_t dispatch_queue_create( const char *label, dispatch_queue_attr_t attr ); dispatch_queue_create(“q”, DISPATCH_QUEUE_SERIAL); dispatch_queue_create(“q”, DISPATCH_QUEUE_CONCURRENT); GCD - Scheduling Tasks with Queues 12
+13. Quality of Service Class - Urgency of queued tasks - Relative priority GCD - Scheduling Tasks with Queues iOS 8+ QOS_CLASS_USER_INTERACTIVE QOS_CLASS_USER_INITIATED QOS_CLASS_DEFAULT QOS_CLASS_UTILITY QOS_CLASS_BACKGROUND 13
+14. GCD - Scheduling Tasks with Queues iOS 8+ QOS_CLASS_USER_INTERACTIVE QOS_CLASS_USER_INITIATED QOS_CLASS_DEFAULT QOS_CLASS_UTILITY QOS_CLASS_BACKGROUND 14 dispatch_queue_attr_make_with_qos_class(DISPATCH_QUEUE_SERIAL, QOS_CLASS_UTILITY, 0); QOS_CLASS_USER_INITIATED QOS_CLASS_UTILITY
+15. - 5 Global Queues - 1 per QOS class - Concurrent, background thread GCD - Scheduling Tasks with Queues dispatch_get_global_queue(QOS_CLASS_DEFAULT, 0); 15
+16. Queues can target other queues - (a) dispatch_queue_create(“q”, DISPATCH_QUEUE_SERIAL); GCD - Scheduling Tasks with Queues ^{2}^{3} ^{1} (a) 16 (b) - (b) Global QOS_CLASS_DEFAULT
+17. GCD - Scheduling Tasks with Queues ^{3} ^{2} ^{1} dispatch_set_target_queue(someQ, targetQ); (a) (b) 17
+18. GCD - Scheduling Tasks with Queues 18 QOS_CLASS_UTILITY QOS_CLASS_USER_INITIATED
+19. GCD - Scheduling Tasks with Queues Task - dispatch_block_t b = ^{}; Schedule a task in GCD - dispatch_sync(queue, ^{}) // Blocking - dispatch_async(queue, ^{}) // Non blocking 19
+20. GCD - Scheduling Tasks with Queues - Special 6th global queue - main queue - dispatch_get_main_queue() - Executes blocks on the main thread 20
+21. GCD - Scheduling Tasks with Queues Common Pattern dispatch_async(dispatch_get_global_queue(QOS_CLASS_DEFAULT), ^{ // do some expensive work dispatch_async(dispatch_get_main_queue(), ^{ // show user the work i did }); }); 21
+22. Demo Cat Pyramid
+23. Synchronizing Tasks with GCD
+24. GCD - Synchronizing Tasks Problem - User generated video - 2 tasks: - Crop video - Generate thumbnails for keyframe slider 24
+25. GCD - Synchronizing Tasks Potential Solution - BOOL Flags - isVideoProccessed - areSliderImagesGenerated - (void)hideLoadingIfPossible { if (self.isVideoProcessed && self.areSliderImagesGenerated) { // Hide the loading spinner } } 25
+26. GCD - Synchronizing Tasks Potential Solution - BOOL Flags - (void)hideLoadingIfPossible { if (self.isVideoProcessed && self.areSliderImagesGenerated && self.isAudioProcessed && self.isUserReadyToSeeThis self.areYouSureUserIsReady) { // Hide the loading spinner } } 26
+27. Better Solution - Dispatch Groups dispatch_group_t - dispatch_group_create(); - Creates a new empty group - dispatch_group_enter(group); - Increments the number of tasks in group - dispatch_group_leave(group); - Decrements the number of tasks in group GCD - Synchronizing Tasks 27
+28. Potential solution - Dispatch Groups dispatch_group_t group = dispatch_group_create(); // For each task: // call dispatch_group_enter(group) on start // call dispatch_group_leave on tasks completion // Call wait to block until task count is 0 dispatch_group_wait(group, DISPATCH_TIME_FOREVER); GCD - Synchronizing Tasks 28
+29. Potential solution - Dispatch Groups dispatch_group_t group = dispatch_group_create(); // For each task: // call dispatch_group_enter(group) on start // call dispatch_group_leave on tasks completion dispatch_async(someConcurrentQueue, ^{ // Call wait to block until task count is 0 dispatch_group_wait(group, DISPATCH_TIME_FOREVER); }); GCD - Synchronizing Tasks 29
+30. GCD - Synchronizing Tasks Optimal Solution - dispatch_group_notify(group, queue, block); - Read “When there are no tasks left associated with this group, notify by enqueueing this block onto this queue” 30
+31. Demo Cat Pyramid - Faster
+32. Serialize Asynchronous Tasks
+33. Sync Task - Easily fits into a block - Blocks until the task is done Async Task - Task happens in another thread/process - Starting this task returns immediately GCD - Serialize Async Tasks 33
+34. Problem - Animations GCD - Serialize Async Tasks 34
+35. GCD - Serialize Async Tasks Problem - Animations [UIView animateWithDuration:1.0 animations:^{ // Rotate 90 degrees } completion:^(BOOL finished) { [UIView animateWithDuration:0.5 animations:^{ // Move down the screen 100pt } completion:NULL]; }]; 35
+36. Demo Fun with Animation Queueing
+37. GCD - Caveats Cleanup is hard - if a dispatch_group_t is deallocated with a non- zero task count, it will throw an exception - dispatch_async “…The queue is retained by the system until the block has run to completion…” - Apple Docs 37
+38. Tools in the Toolbelt GCD - Small synchronous tasks - Simple asynchronous tasks NSOperation and NSOperationQueue - Complex asynchronous tasks - Cancel support 38
+39. What else can I do with GCD? - Efficient reader/writer schemes - dispatch_barrier - Read and write data efficiently - dispatch_io (disk) and dispatch_data (memory) - Respond to low-level system objects - dispatch_source 39
+40. Resources GCD Source - https://libdispatch.macosforge.org/trac/browser/trunk GCD Documentation - https://developer.apple. com/library/ios/documentation/Performance/Reference/GCD_libdispatch_Ref/ Demo App - https://github.com/benasher44/SGConf2015Demo 40
