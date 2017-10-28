@@ -1,0 +1,189 @@
+Given A binary Tree, how do you count all the half nodes (which has only one child) without using recursion? Note leaves should not be touched as they have both children as NULL.
+
+        2
+  7             5
+
+      6                     9
+
+1           11          4
+
+Output : 3
+Nodes 7, 5 and 9 are half nodes as one of
+their child is Null. So count of half nodes
+in the above tree is 3
+
+Iterative
+
+The idea is to use level-order traversal to solve this problem efficiently.
+1) Create an empty Queue Node and push root node to Queue.
+2) Do following while nodeQeue is not empty.
+   a) Pop an item from Queue and process it.
+      a.1) If it is half node then increment count++.
+   b) Push left child of popped item to Queue, if available.
+   c) Push right child of popped item to Queue, if available.
+
+   // Java program to count half nodes in a Binary Tree
+// using Iterative approach
+import java.util.Queue;
+import java.util.LinkedList;
+
+// Class to represent Tree node
+class Node
+{
+    int data;
+    Node left, right;
+
+    public Node(int item)
+    {
+        data = item;
+        left = null;
+        right = null;
+    }
+}
+
+// Class to count half nodes of Tree
+class BinaryTree
+{
+
+    Node root;
+
+    /* Function to get the count of half Nodes in
+    a binary tree*/
+    int gethalfCount()
+    {
+        // If tree is empty
+        if (root==null)
+            return 0;
+
+        // Do level order traversal starting from root
+        Queue<Node> queue = new LinkedList<Node>();
+        queue.add(root);
+
+        int count=0; // Initialize count of half nodes
+        while (!queue.isEmpty())
+        {
+
+            Node temp = queue.poll();
+            if (temp.left!=null && temp.right==null ||
+                temp.left==null && temp.right!=null)
+                count++;
+
+            // Enqueue left child
+            if (temp.left != null)
+                queue.add(temp.left);
+
+            // Enqueue right child
+            if (temp.right != null)
+                queue.add(temp.right);
+        }
+        return count;
+    }
+
+    public static void main(String args[])
+    {
+        /* 2
+          / \
+        7    5
+        \    \
+        6    9
+        / \ /
+        1 11 4
+        Let us create Binary Tree shown in
+        above example */
+        BinaryTree tree_level = new BinaryTree();
+        tree_level.root = new Node(2);
+        tree_level.root.left = new Node(7);
+        tree_level.root.right = new Node(5);
+        tree_level.root.left.right = new Node(6);
+        tree_level.root.left.right.left = new Node(1);
+        tree_level.root.left.right.right = new Node(11);
+        tree_level.root.right.right = new Node(9);
+        tree_level.root.right.right.left = new Node(4);
+
+        System.out.println(tree_level.gethalfCount());
+
+    }
+}
+
+Output:
+ 3
+Time Complexity: O(n)
+Auxiliary Space: O(n)
+where, n is number of nodes in given binary tree
+
+
+Recursive
+
+The idea is to traverse the tree in postorder. If current node is half, we increment result by 1 and add returned values of left and right subtrees.
+// C++ program to count half nodes in a Binary Tree
+#include <bits/stdc++.h>
+using namespace std;
+
+// A binary tree Node has data, pointer to left
+// child and a pointer to right child
+struct Node
+{
+    int data;
+    struct Node* left, *right;
+};
+
+// Function to get the count of half Nodes in
+// a binary tree
+unsigned int gethalfCount(struct Node* root)
+{
+    if (root == NULL)
+       return 0;
+
+    int res = 0;
+    if  ((root->left == NULL && root->right != NULL) ||
+         (root->left != NULL && root->right == NULL))
+       res++;
+
+    res += (gethalfCount(root->left) + gethalfCount(root->right));
+    return res;
+}
+
+/* Helper function that allocates a new
+   Node with the given data and NULL left
+   and right pointers. */
+struct Node* newNode(int data)
+{
+    struct Node* node = new Node;
+    node->data = data;
+    node->left = node->right = NULL;
+    return (node);
+}
+
+// Driver program
+int main(void)
+{
+    /* 2
+     / \
+    7    5
+    \    \
+     6   9
+    / \ /
+    1 11 4
+    Let us create Binary Tree shown in
+    above example */
+
+    struct Node *root = newNode(2);
+    root->left    = newNode(7);
+    root->right   = newNode(5);
+    root->left->right = newNode(6);
+    root->left->right->left = newNode(1);
+    root->left->right->right = newNode(11);
+    root->right->right = newNode(9);
+    root->right->right->left = newNode(4);
+
+    cout << gethalfCount(root);
+
+    return 0;
+}
+
+Output :
+
+3
+Time Complexity: O(n)
+Auxiliary Space: O(n)
+where, n is number of nodes in given binary tree

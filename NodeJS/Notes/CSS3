@@ -1,0 +1,39 @@
+http://career.guru99.com/top-50-csscascading-style-sheet-interview-questions/
+http://www.skilledup.com/articles/25-css-interview-questions-answers
+https://www.toptal.com/css/interview-questions
+http://capptitudebank.blogspot.in/2012/04/advanced-css-interview-questions-and_30.html#.WIIbUrZ968o
+http://jharaphula.com/advanced-css3-interview-questions-answers/
+
+
+div, p - Selects all <div> elements and all <p> elements
+div p - Selects all <p> elements that are anywhere inside a <div> element
+div > p - Selects all <p> elements where the immediate parent is a <div> element
+div + p - Selects all <p> elements that are placed immediately after a <div> element
+div ~ p - Selects all <p> elements that are anywhere preceded by a <div> element
+
+Select every <a> element whose href attribute value begins with “https”:
+
+a[href^="https"]
+Select every <a> element whose href attribute value ends with “.pdf”:
+
+a[href$=".pdf"]
+Select every <a> element whose href attribute value contains the substring “css”:
+
+a[href*="css"]
+
+Advanced tutorials
+
+https://www.youtube.com/watch?v=zEYVB1W-P0s&list=PLskZP4iE0XzaHE0yH2KUiPD-BMk-fIkHN
+https://www.youtube.com/watch?v=DYevj6UGNWA&list=PLRCvSNiMyEmyBsu6nGxB5LtMdAltgNDX5
+https://www.youtube.com/watch?v=zO4DFCjgdx0&list=PLr6-GrHUlVf9ZleRsd5oTcrziNglndsXW
+https://www.youtube.com/watch?v=W3eJWpvIl0g&list=PLW32vfzCW_FAFJ5950kWR2rdw9TVaBhl_
+https://www.youtube.com/watch?v=7ZXsPj43heo&list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh
+https://www.youtube.com/watch?v=Mp0f0zTPLec&list=PL4365CEFCE3DC35D1
+https://www.youtube.com/watch?v=DYevj6UGNWA&list=PLm4eRlwCx5qWLAaM2VDcp262TTLbCHVMj
+https://www.youtube.com/watch?v=YpL6mTfnnGE&list=PL9S7GwfYDqClNjkzVIJ33DiLboMqxYUUD
+https://www.youtube.com/watch?v=QqmCs2UTS8s&list=PLP9IO4UYNF0XQNx1OinMm84lyGzWSWDms
+https://www.youtube.com/watch?v=ya832te-dZw
+
+
+Advanced Tutorial
+https://www.youtube.com/watch?v=zEYVB1W-P0s&list=PLskZP4iE0XzaHE0yH2KUiPD-BMk-fIkHN

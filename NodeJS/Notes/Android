@@ -1,0 +1,82 @@
+https://www.raywenderlich.com/category/android
+https://developer.android.com/training/basics/firstapp/creating-project.html
+http://skillgun.com/android/questions-and-answers/paper/26
+
+https://dzone.com/articles/android-third-party-libraries-0
+https://github.com/codepath/android_guides/wiki/Must-Have-Libraries
+
+Android asynctask, handler, thread
+
+http://stackoverflow.com/questions/6964011/handler-vs-asynctask-vs-thread
+http://stackoverflow.com/questions/7452884/difference-between-handler-postrunnable-r-and-activity-runonuithreadrunnable
+http://blog.respondify.se/2011/10/threads-handlers-asynctask-efficient-asynchronous-programming-android/
+http://stackoverflow.com/questions/12618038/why-to-use-handlers-while-runonuithread-does-the-same
+http://stackoverflow.com/questions/4369537/update-ui-from-thread
+http://stackoverflow.com/questions/12716850/android-update-textview-in-thread-and-runnable
+
+https://developer.android.com/reference/android/os/AsyncTask.html
+http://www.vogella.com/tutorials/AndroidBackgroundProcessing/article.html#purpose-of-the-handler-class
+
+Android Memory Model
+Java Memory Model
+Android (ART) and Dalvik vm
+Android Garbage Collector
+Java Garbage Collector
+
+https://developer.android.com/training/index.html
+https://developer.android.com/guide/index.html
+
+
+Android Dalvik and ART
+https://source.android.com/devices/tech/dalvik/
+https://www.87android.com/what-is-dalvik-virtual-machine-in-android/
+http://www.slideshare.net/jserv/understanding-the-dalvik-virtual-machine
+http://stackoverflow.com/questions/13577733/how-an-android-application-is-executed-on-dalvik-virtual-machine
+http://stackoverflow.com/questions/3446540/what-is-the-difference-between-dvm-and-jvm
+http://www.onsandroid.com/2011/12/dvm-vs-jvm.html
+http://howwhywhat.in/what-is-the-difference-between-dvm-and-jvm
+https://developer.android.com/guide/platform/index.html
+http://www.anandtech.com/show/8231/a-closer-look-at-android-runtime-art-in-android-l
+https://software.intel.com/en-us/blogs/2014/06/18/art-vs-dalvik-introducing-the-new-android-x86-runtime
+https://www.quora.com/Why-is-ART-better-than-Dalvik
+https://www.youtube.com/watch?v=EBlTzQsUoOw
+
+http://www.c-sharpcorner.com/UploadFile/34ef56/android-application-build-process-or-compilation-process/
+http://www.herongyang.com/Android/Project-Android-Application-Project-Build-Process.html
+http://www.singhajit.com/android-build-process/
+https://developer.android.com/studio/build/index.html
+http://www.alittlemadness.com/2010/06/07/understanding-the-android-build-process/
+https://github.com/dogriffiths/HeadFirstAndroid/wiki/How-Android-Apps-are-Built-and-Run
+
+
+https://developer.android.com/training/index.html
+https://developer.android.com/guide/components/fundamentals.html
+
+https://developer.android.com/samples/AppRestrictionEnforcer/index.html
+
+https://www.youtube.com/watch?v=hzrGAZnMOMQ&list=PLonJJ3BVjZW6hYgvtkaWvwAVvOFB7fkLa
+https://www.youtube.com/watch?v=2Wo_QfQZ0lE&list=PLAwxTw4SYaPnMwH5-FNkErnnq_aSy706S
+https://www.youtube.com/watch?v=nBD4xhH5vIE&list=PLGLfVvz_LVvSPjWpLPFEfOCbezi6vATIh
+https://www.youtube.com/watch?v=UuGIAomlU1I
+https://www.youtube.com/watch?v=mxYainSDHe8&list=PLzV8uWUcseN8x0c3q2hRx9X4vbLYSlipb
+https://www.youtube.com/watch?v=SP5pSQC0nJA&list=PLshdtb5UWjSqgZ1yaeyKMiLyY4x1egK3c
+https://www.youtube.com/watch?v=5RHtKIo_KDI&list=PLE08A97D36D5A255F
+https://www.youtube.com/watch?v=Mf7z_mrce00&list=PLE953C0B85B50AB62
+
+Android Application
+https://www.youtube.com/user/eddydn71/playlists
+https://www.youtube.com/playlist?list=PLaoF-xhnnrRWHtmb8ZGmu8N4Wl2Zr26V7
+https://www.youtube.com/playlist?list=LLllewj2bGdqB8U9Ld15INAg
+
+https://www.youtube.com/watch?v=0I3Z_dSjw4w&list=PLaoF-xhnnrRV92Y9HlqqutcwwRYm1LjP7
+https://www.youtube.com/watch?v=hzrGAZnMOMQ&list=PLonJJ3BVjZW6hYgvtkaWvwAVvOFB7fkLa
+https://www.youtube.com/watch?v=aRd3_E2j4Q0&list=PLshdtb5UWjSp0879mLeCsDQN6L73XBZTk
+https://www.youtube.com/watch?v=0ImgVkc_4AE&list=PLlxmoA0rQ-LyCGSSD_nuPAmXDSR_FU0RR
+https://www.youtube.com/watch?v=2Wo_QfQZ0lE&list=PLAwxTw4SYaPnMwH5-FNkErnnq_aSy706S
+
+
+
+https://www.youtube.com/watch?v=MtmHURWKCmg&list=PLonJJ3BVjZW6hYgvtkaWvwAVvOFB7fkLa&index=15
+
+Android Video
+https://www.youtube.com/user/androiddevelopers/playlists

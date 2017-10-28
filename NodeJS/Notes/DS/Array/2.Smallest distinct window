@@ -1,0 +1,41 @@
+Given a string detect the smallest window length with highest number of distinct characters.
+For eg. A = “aabcbcdbca”, then the result would be 4 as of the smallest window will be “dbca” .
+
+Input:
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains a string S.
+
+Output:
+For each test case in a new line print the length of the smallest such string.
+
+Constraints:
+1<=T<100
+1<=|S|<=1000
+
+Example:
+Input:
+2
+aabcbcdbca
+aaab
+
+Output:
+4
+2
+
+http://www.geeksforgeeks.org/smallest-window-contains-characters-string/
+http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+
+
+In that problem we find the smallest window that contains all the characters of given pattern.
+
+1- Count all distinct characters in given string.
+
+2- Now follow the algorithm discussed in below post.
+http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+
+http://java-questions.com/minimum-window-substring.html
+http://buttercola.blogspot.in/2014/09/leetcode-minimum-window-substring.html
+http://www.programcreek.com/2014/05/leetcode-minimum-window-substring-java/
+http://www.gohired.in/2015/01/12/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+http://www.programcreek.com/2014/05/leetcode-minimum-window-substring-java/
+http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+http://www.geeksforgeeks.org/smallest-window-contains-characters-string/

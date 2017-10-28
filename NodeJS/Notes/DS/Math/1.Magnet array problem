@@ -1,0 +1,95 @@
+
+Magnet array problem (DE Shaw)
+
+Given n Magnets which are placed linearly, with each magnet to be considered as of point object. Each magnet suffers force from its left sided magnets such that they repel it to the right and vice versa. All forces are repulsive. The force being equal to the distance (1/d , d being the distance). Now given the positions of the magnets, the task to find all the points along the linear line where net force is ZERO.
+
+Note: Distance have to be calculated with precision of 0.0000000000001.
+
+Input:
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. The second line of each test case contains an integer N. Then in the next line are N space separated values of the array M[], denoting the positions of the magnet.
+
+Output:
+For each test case in a new line print the space separated points having net force zero till precised two decimal places.
+
+Constraints:
+1<=T<=100
+1<=N<=100
+1<=M[]<=1000
+
+Example:
+Input:
+2
+2
+1 2
+4
+0 10 20 30
+Output:
+1.50
+3.82 15.00 26.18
+
+Magnets are placed linearly, with each magnet to be considered as of point object. each magnet suffers force from its left sided magnets such that they repel it to the right and vice versa. All forces are repulsive. The force is inversely proportional to distance (1/d , d being the distance). Make a function as shown below that takes n as the number of magnets, and array of their distance from origin, which finds all the points along the linear line where net force is ZERO.  Distance have to be calculated with precision of epsilon.
+
+void solve(int n, int *magnets){ }
+
+example: n=2 magnets[]={0,10}
+
+ans: 5 (at the mid point)
+
+n=4 magnets[]={0,10,20,30}
+
+ans: 3.8238
+15
+26.1762
+
+We know that there is going to be a single point between every two magnets where net force is zero. That is there will be (n-1) such points.
+Now for determining the i'th point, we know that the first i magnets will exert a positive force and the rest will exert a negative force at this point. Let's say the distance of this point is x, where a[i] < x < a[i+1]
+
+Net force at this point is:
+    F = 1/(x-a[1]) + 1/(x-a[2]) + ..... 1/(x-a[i]) - 1/ (x-a[i+1]) - 1/(x-a[i+2]) - .... - 1/(x-a[n])
+
+Now, we need this force F to be as close to zero as possible.
+So, absolute value of F must be less than epsilon, say 10^(-9)
+
+For finding this distance x, we do a binary search on the range a[i] to a[i+1].
+If at the mid point of this section the net force is less than epsilon, then we return the answer.
+If the force is positive, it implies that it is closer to left magnets than it should be, so we change lower bound to mid point.
+If the force is negative, it implies that it is closer to right magnets, so we change upper bound to mid point.
+
+Code:
+
+double searchBinary(double low, double high, double* LeftForce, int lefts, double* RightForce, int rights)
+{
+	double epsilon = 0.0000000000001;
+
+	double mid = (low + high)/2;
+
+	double netForce = 0;
+
+	for(int i = 0; i < lefts; i++)
+		netForce += 1.0/(mid - LeftForce[i]);
+	for(int i = 0; i < rights; i++)
+		netForce -= 1.0/(RightForce[i] - mid);
+
+	if((-epsilon) < netForce && netForce < epsilon)
+		return mid;
+	else if (netForce > 0)
+		return searchBinary(mid, high, LeftForce, lefts, RightForce, rights);
+	else
+		return searchBinary(low, mid, LeftForce, lefts, RightForce, rights);
+}
+
+void solve(int n, double* magnets)
+{
+	for(int i=0; i<n-1; i++)
+	{
+		double ans = searchBinary(magnets[i], magnets[i+1], magnets, i+1, magnets+i+1, n-1-i);
+		cout << ans << endl;
+	}
+}
+
+int main()
+{
+	double magnets[] = {0,10,20,30};
+	solve(4, magnets);
+	return 0;
+}

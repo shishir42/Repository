@@ -1,0 +1,197 @@
+// Value initialization
+
+var n = 123; // allocates memory for a number
+var s = 'azerty'; // allocates memory for a string
+
+var o = {
+  a: 1,
+  b: null
+}; // allocates memory for an object and contained values
+
+// (like object) allocates memory for the array and
+// contained values
+var a = [1, null, 'abra'];
+
+function f(a) {
+  return a + 2;
+} // allocates a function (which is a callable object)
+
+// function expressions also allocate an object
+someElement.addEventListener('click', function() {
+  someElement.style.backgroundColor = 'blue';
+}, false);
+
+// Allocation via function calls
+var d = new Date(); // allocates a Date object
+
+var e = document.createElement('div'); // allocates a DOM element
+
+// Reference-counting garbage collection
+
+var o = {
+  a: {
+    b: 2
+  }
+};
+// 2 objects are created. One is referenced by the other as one of its properties.
+// The other is referenced by virtue of being assigned to the 'o' variable.
+// Obviously, none can be garbage-collected
+
+
+var o2 = o; // the 'o2' variable is the second thing that
+            // has a reference to the object
+o = 1;      // now, the object that was originally in 'o' has a unique reference
+            // embodied by the 'o2' variable
+
+var oa = o2.a; // reference to 'a' property of the object.
+               // This object has now 2 references: one as a property,
+               // the other as the 'oa' variable
+
+o2 = 'yo'; // The object that was originally in 'o' has now zero
+           // references to it. It can be garbage-collected.
+           // However what was its 'a' property is still referenced by
+           // the 'oa' variable, so it cannot be freed
+
+oa = null; // what was the 'a' property of the object originally in o
+           // has zero references to it. It can be garbage collected.
+
+
+//Limitation: cycles
+
+// There is a limitation when it comes to cycles. In the following example two objects are
+// created and reference one another, thus creating a cycle. They will go out of scope after
+// the function call, so they are effectively useless and could be freed. However, the reference-counting
+// algorithm considers that since each of the two objects is referenced at least once,
+// neither can be garbage-collected.
+
+function f() {
+  var o = {};
+  var o2 = {};
+  o.a = o2; // o references o2
+  o2.a = o; // o2 references o
+
+  return 'azerty';
+}
+
+f();
+
+
+// Concurrency model and Event Loop
+
+//JavaScript has a concurrency model based on an "event loop".
+//This model is quite different from models in other languages like C and Java.
+
+
+https://developer.mozilla.org/files/4617/default.svg
+
+// Stack
+// Function calls form a stack of frames.
+
+function foo(b) {
+  var a = 10;
+  return a + b + 11;
+}
+
+function bar(x) {
+  var y = 3;
+  return foo(x * y);
+}
+
+console.log(bar(7)); //42
+
+//When calling bar, a first frame is created containing bar's arguments and local variables.
+//When bar calls foo, a second frame is created and pushed on top of the first one containing
+//foo's arguments and local variables. When foo returns, the top frame element is popped out
+//of the stack (leaving only bar's call frame). When bar returns, the stack is empty.
+
+//Heap
+//Objects are allocated in a heap which is just a name to denote a large mostly unstructured
+//region of memory.
+
+//Queue
+//A JavaScript runtime contains a message queue, which is a list of messages to be processed.
+//A function is associated with each message. When the stack has enough capacity,
+//a message is taken out of the queue and processed. The processing consists of calling
+//the associated function (and thus creating an initial stack frame).
+//The message processing ends when the stack becomes empty again.
+
+//Event loop
+//The event loop got its name because of how it's usually implemented, which usually resembles:
+
+while (queue.waitForMessage()) {
+  queue.processNextMessage();
+}
+
+//queue.waitForMessage waits synchronously for a message to arrive if there is none currently.
+
+//Zero delays
+//Zero delay doesn't actually mean the call back will fire-off after zero milliseconds.
+//Calling setTimeout with a delay of 0 (zero) milliseconds doesn't execute the callback function
+//after the given interval. The execution depends on the number of awaiting tasks in the queue.
+//In the example below the message ''this is just a message'' will be written to the console
+//before the message in the callback gets processed, because the delay is the minimum time
+//required for the runtime to process the request, but not a guaranteed time.
+
+(function() {
+
+  console.log('this is the start');
+
+  setTimeout(function cb() {
+    console.log('this is a msg from call back');
+  });
+
+  console.log('this is just a message');
+
+  setTimeout(function cb1() {
+    console.log('this is a msg from call back1');
+  }, 0);
+
+  console.log('this is the end');
+
+})();
+
+// "this is the start"
+// "this is just a message"
+// "this is the end"
+// "this is a msg from call back"
+// "this is a msg from call back1"
+
+//Never blocking
+
+//A very interesting property of the event loop model is that JavaScript, unlike a lot of other languages,
+//never blocks. Handling I/O is typically performed via events and callbacks, so when the application
+//is waiting for an IndexedDB query to return or an XHR request to return, it can still process other
+//things like user input.
+
+
+//Data types
+
+//The latest ECMAScript standard defines seven data types:
+
+//Six data types that are primitives:
+//Boolean
+//Null
+//Undefined
+//Number
+//String
+//Symbol (new in ECMAScript 6)
+//and Object
+
+//Same-value equality
+
+//Same-value equality addresses a final use case: determining whether two values are functionally
+//identical in all contexts.  (This use case demonstrates an instance of the Liskov substitution principle.)
+// One instance occurs when an attempt is made to mutate an immutable property:
+
+// Add an immutable NEGATIVE_ZERO property to the Number constructor.
+Object.defineProperty(Number, 'NEGATIVE_ZERO',
+                      { value: -0, writable: false, configurable: false, enumerable: false });
+
+function attemptMutation(v) {
+  Object.defineProperty(Number, 'NEGATIVE_ZERO', { value: v });
+}
+
+//Object.defineProperty will throw an exception when attempting to change an immutable
+//property would actually change it, but it does nothing if no actual change is requested.
+
+//Same-value equality is provided by the Object.is method.

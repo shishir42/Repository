@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<meta name = "viewport" content = "user-scalable=no, width=device-width">
+<body>
+<h1>Sample JavaScript</h1>
+<script src="app.js"></script>
+
+<div id="parent">
+    <div id="children">
+        Click
+    </div>
+</div>
+
+<script>
+var parent = document.getElementById('parent'),children = document.getElementById('children');
+
+children.addEventListener('click', function (e) {
+    //alert('Children Capture');
+    // e.stopPropagation();
+}, true);
+
+children.addEventListener('click', function (e) {
+    //alert('Children Bubble');
+    // e.stopPropagation();
+}, false);
+
+parent.addEventListener('click', function (e) {
+    //alert('Parent Capture');
+    // e.stopPropagation();
+}, true);
+
+parent.addEventListener('click', function (e) {
+    alert('Parent Bubble');
+    // e.stopPropagation();
+}, false);
+</script>
+
+
+
+</body>
+</html>

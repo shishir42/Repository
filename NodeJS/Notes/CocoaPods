@@ -1,0 +1,8 @@
+Steps to install CocoaPods
+
+1) sudo gem install cocoapods
+2) pod setup --verbose
+3) Locate to project and create pod file using command (pod init)
+4) To Update - sudo gem install cocoapods --pre
+5) Open POD and give the version for download (pod 'socket.IO', '~> 0.5.2')
+6) Navigate to your project and run the command (pod install)

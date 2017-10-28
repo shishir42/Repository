@@ -1,0 +1,66 @@
+Tidy Number (Freshokartz)
+
+Given a number, the task is to check if it is tidy or not. A tidy number is a number whose digits are in non-decreasing order.
+
+Examples:
+
+Input : 1234
+Output : Yes
+
+Input : 1243
+Output : No
+Digits "4" and "3" violate the property.
+
+
+Input:
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains an integer N.
+
+Output:
+For each test case in a new line print 1 if the no is a tidy number else print 0.
+
+Constraints:
+1<=T<=100
+1<=N<=10^9+7
+
+Example:
+Input:
+2
+1234
+1243
+Output:
+1
+0
+
+
+public class TidyNumber {
+	public static void main (String[] args) {
+		Scanner kb = new Scanner(System.in);
+		int t = kb.nextInt();
+		for (int i=0; i<t; i++) {
+		    int num = kb.nextInt();
+		    int prev = Integer.MAX_VALUE;
+		    int curr=0;
+		    int flag=0;
+		    while (num > 0) {
+		        curr = num%10;
+		        System.out.println("curr " + curr);
+		        System.out.println("prev " + prev);
+		        num = num/10;
+		        System.out.println("num " + num);
+		        if (curr > prev) {
+		        	System.out.println("curr > prev");
+		            flag = 1;
+		            break;
+		        } else {
+		        	System.out.println("curr < prev");
+		            prev = curr;
+		        }
+		    }
+		    if (flag == 1) {
+		        System.out.println(0);
+		    } else {
+		        System.out.println(1);
+		    }
+		}
+	}
+}

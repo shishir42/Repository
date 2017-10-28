@@ -1,0 +1,246 @@
+Greedy is an algorithmic paradigm that builds up a solution piece by piece,
+always choosing the next piece that offers the most obvious and immediate benefit.
+
+Greedy algorithms are used for optimization problems. An optimization problem can be solved
+using Greedy if the problem has the following property: At every step,
+we can make a choice that looks best at the moment,
+and we get the optimal solution of the complete problem.
+
+
+Let us consider the Activity Selection problem as our first example of Greedy algorithms.
+Following is the problem statement.
+You are given n activities with their start and finish times.
+Select the maximum number of activities that can be performed by a single person,
+assuming that a person can only work on a single activity at a time.
+Example:
+
+Example 1 : Consider the following 3 activities sorted by
+by finish time.
+     start[]  =  {10, 12, 20};
+     finish[] =  {20, 25, 30};
+A person can perform at most two activities. The
+maximum set of activities that can be executed
+is {0, 2} [ These are indexes in start[] and
+finish[] ]
+
+Example 2 : Consider the following 6 activities
+sorted by by finish time.
+     start[]  =  {1, 3, 0, 5, 8, 5};
+     finish[] =  {2, 4, 6, 7, 9, 9};
+A person can perform at most four activities. The
+maximum set of activities that can be executed
+is {0, 1, 3, 4} [ These are indexes in start[] and
+finish[] ]
+
+
+Greedy Algorithm for Egyptian Fraction
+Every positive fraction can be represented as sum of unique unit fractions.
+A fraction is unit fraction if numerator is 1 and denominator is a positive integer,
+for example 1/3 is a unit fraction. Such a representation is called
+Egyptial Fraction as it was used by ancient Egyptians.
+
+
+Following are few examples:
+
+Egyptian Fraction Representation of 2/3 is 1/2 + 1/6
+Egyptian Fraction Representation of 6/14 is 1/3 + 1/11 + 1/231
+Egyptian Fraction Representation of 12/13 is 1/2 + 1/3 + 1/12 + 1/156
+We can generate Egyptian Fractions using Greedy Algorithm.
+For a given number of the form ‘nr/dr’ where dr > nr,
+first find the greatest possible unit fraction, then recur for the remaining part.
+For example, consider 6/14, we first find ceiling of 14/6, i.e., 3.
+So the first unit fraction becomes 1/3, then recur for (6/14 – 1/3) i.e., 4/42.
+
+Job Sequencing Problem
+
+Given an array of jobs where every job has a deadline and
+associated profit if the job is finished before the deadline.
+It is also given that every job takes single unit of time,
+so the minimum possible deadline for any job is 1. How to maximize total profit
+if only one job can be scheduled at a time.
+
+Examples:
+
+Input: Four Jobs with following deadlines and profits
+  JobID    Deadline      Profit
+    a        4            20
+    b        1            10
+    c        1            40
+    d        1            30
+Output: Following is maximum profit sequence of jobs
+        c, a
+
+
+Input:  Five Jobs with following deadlines and profits
+   JobID     Deadline     Profit
+     a         2           100
+     b         1           19
+     c         2           27
+     d         1           25
+     e         3           15
+Output: Following is maximum profit sequence of jobs
+        c, a, e
+
+        A Simple Solution is to generate all subsets of given set of jobs and
+        check individual subset for feasibility of jobs in that subset.
+        Keep track of maximum profit among all feasible subsets.
+        The time complexity of this solution is exponential.
+
+        This is a standard Greedy Algorithm problem. Following is algorithm.
+
+        1) Sort all jobs in decreasing order of profit.
+        2) Initialize the result sequence as first job in sorted jobs.
+        3) Do following for remaining n-1 jobs
+        .......a) If the current job can fit in the current result sequence
+                  without missing the deadline, add current job to the result.
+                  Else ignore the current job.
+
+Huffman Coding
+
+Huffman coding is a lossless data compression algorithm.
+The idea is to assign variable-length codes to input characters, lengths of the assigned codes
+are based on the frequencies of corresponding characters. The most frequent character gets
+the smallest code and the least frequent character gets the largest code.
+
+The variable-length codes assigned to input characters are Prefix Codes,
+means the codes (bit sequences) are assigned in such a way that the code assigned
+to one character is not prefix of code assigned to any other character.
+This is how Huffman Coding makes sure that there is no ambiguity when decoding
+the generated bit stream.
+
+Let us understand prefix codes with a counter example.
+Let there be four characters a, b, c and d, and their corresponding variable length codes
+be 00, 01, 0 and 1. This coding leads to ambiguity because code
+assigned to c is prefix of codes assigned to a and b.
+If the compressed bit stream is 0001,
+the de-compressed output may be “cccd” or “ccb” or “acd” or “ab”.
+
+See this for applications of Huffman Coding.
+
+There are mainly two major parts in Huffman Coding
+1) Build a Huffman Tree from input characters.
+2) Traverse the Huffman Tree and assign codes to characters.
+
+Steps to build Huffman Tree
+Input is array of unique characters along with their frequency of occurrences
+and output is Huffman Tree.
+
+1. Create a leaf node for each unique character and
+build a min heap of all leaf nodes (Min Heap is used as a priority queue.
+The value of frequency field is used to compare two nodes in min heap.
+Initially, the least frequent character is at root)
+
+2. Extract two nodes with the minimum frequency from the min heap.
+
+3. Create a new internal node with frequency equal to the sum of the two nodes frequencies.
+Make the first extracted node as its left child and the other extracted node as its right child.
+Add this node to the min heap.
+
+4. Repeat steps#2 and #3 until the heap contains only one node.
+The remaining node is the root node and the tree is complete.
+
+
+(Efficient Huffman Coding for Sorted Input)
+
+
+Time complexity of the algorithm discussed in above post is O(nLogn).
+If we know that the given array is sorted (by non-decreasing order of frequency),
+we can generate Huffman codes in O(n) time. Following is a O(n) algorithm for sorted input.
+
+1. Create two empty queues.
+
+2. Create a leaf node for each unique character and Enqueue
+it to the first queue in non-decreasing order of frequency. Initially second queue is empty.
+
+3. Dequeue two nodes with the minimum frequency by examining the front of both queues.
+Repeat following steps two times
+…..a) If second queue is empty, dequeue from first queue.
+…..b) If first queue is empty, dequeue from second queue.
+…..c) Else, compare the front of two queues and dequeue the minimum.
+
+4. Create a new internal node with frequency equal to the sum of the two nodes frequencies.
+Make the first Dequeued node as its left child and the second Dequeued node as right child.
+Enqueue this node to second queue.
+
+5. Repeat steps#3 and #4 until there is more than one node in the queues.
+The remaining node is the root node and the tree is complete.
+
+
+Kruskal’s Minimum Spanning Tree Algorithm)
+What is Minimum Spanning Tree?
+Given a connected and undirected graph, a spanning tree of that graph is a subgraph that is a tree and connects all the vertices together. A single graph can have many different spanning trees. A minimum spanning tree (MST) or minimum weight spanning tree for a weighted, connected and undirected graph is a spanning tree with weight less than or equal to the weight of every other spanning tree. The weight of a spanning tree is the sum of weights given to each edge of the spanning tree.
+
+How many edges does a minimum spanning tree has?
+A minimum spanning tree has (V – 1) edges where V is the number of vertices in the given graph.
+
+What are the applications of Minimum Spanning Tree?
+See this for applications of MST.
+
+Below are the steps for finding MST using Kruskal’s algorithm
+
+1. Sort all the edges in non-decreasing order of their weight.
+
+2. Pick the smallest edge. Check if it forms a cycle with the spanning tree
+formed so far. If cycle is not formed, include this edge. Else, discard it.
+
+3. Repeat step#2 until there are (V-1) edges in the spanning tree.
+The step#2 uses Union-Find algorithm to detect cycle. So we recommend to read following post as a prerequisite.
+Union-Find Algorithm | Set 1 (Detect Cycle in a Graph)
+Union-Find Algorithm | Set 2 (Union By Rank and Path Compression)
+
+The algorithm is a Greedy Algorithm. The Greedy Choice is to pick the smallest weight edge that does not cause a cycle in the MST constructed so far. Let us understand it with an example: Consider the below input graph.
+
+
+
+The graph contains 9 vertices and 14 edges. So, the minimum spanning tree formed will be having (9 – 1) = 8 edges.
+
+After sorting:
+Weight   Src    Dest
+1         7      6
+2         8      2
+2         6      5
+4         0      1
+4         2      5
+6         8      6
+7         2      3
+7         7      8
+8         0      7
+8         1      2
+9         3      4
+10        5      4
+11        1      7
+14        3      5
+Now pick all edges one by one from sorted list of edges
+1. Pick edge 7-6: No cycle is formed, include it.
+
+
+2. Pick edge 8-2: No cycle is formed, include it.
+
+
+3. Pick edge 6-5: No cycle is formed, include it.
+
+
+4. Pick edge 0-1: No cycle is formed, include it.
+
+
+5. Pick edge 2-5: No cycle is formed, include it.
+
+
+6. Pick edge 8-6: Since including this edge results in cycle, discard it.
+
+7. Pick edge 2-3: No cycle is formed, include it.
+
+
+8. Pick edge 7-8: Since including this edge results in cycle, discard it.
+
+9. Pick edge 0-7: No cycle is formed, include it.
+
+
+10. Pick edge 1-2: Since including this edge results in cycle, discard it.
+
+11. Pick edge 3-4: No cycle is formed, include it.
+
+
+Since the number of edges included equals (V – 1), the algorithm stops here.
+
+https://www.youtube.com/watch?v=0kNXhFIEd_w&list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW&index=11

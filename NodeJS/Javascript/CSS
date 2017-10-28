@@ -1,0 +1,283 @@
+What are the ways to Apply CSS styles in a HTML documents?
+There are 4 different ways to Apply CSS3 in a HTML document.
+These are In-line CSS, Embedded CSS, Linked CSS & Imported CSS.
+
+What is the difference between an ID & CLASS selector in CSS3?
+Using ID selector we can apply style to a specific element while using class
+we can apply the same style to many.
+
+Explain me the CSS Box Model.
+The CSS3 box model is the rectangular area around the HTML elements.
+CSS3 Box Model consist of 4 different parts.
+Margin, Border, Padding & Content. Margin, Border & Padding can be declared
+using the following CSS3 syntax.
+
+padding: 10px;
+border: 5px solid gray;
+margin: 0px;
+
+The different components of CSS styles –
+
+Property
+Selector
+Value
+
+Type selector matches the element of specific type.
+To give the color for all inputs with text types, we can do like this.
+
+input[type="text"]{
+ color: #b2bfc7;
+}
+
+
+Universal selectors is used to match any element types.
+Below is the example for the same. For example,
+
+* {
+ color: #FFFFFF;
+}
+
+
+Descendant selectors are used when any style to be applied to an element
+when the element lies inside some element. For example,
+
+ul em {
+ color: #FFFFFF;
+}
+
+Id selector is used to apply the style to an element based on the “id” of an element.
+For example,
+
+#elementId {
+ color: #FFFFFF;
+}
+
+Class selector is used to apply the style to an element based on the “class name” of an element.
+For example,
+
+.elementClassName {
+ color: #FFFFFF;
+}
+
+Attribute selector can be used to apply a style for an HTML element with particular attribute.
+Example gien below is used to apply a style for input element with particular attribute (text)
+input[type = "text"]{
+ color: #FFFFFF;
+}
+
+“Display:none” – This will just hide the element and does not take any space of the element.
+“visibility:hidden” – This also hides the element and will take space for the element and
+this will affect the entire layout of the document.
+
+
+Pseudo classes will allow you to identify the HTML elements.
+These classes are specified with “:” and pseudo class and element name.
+
+a:hover {font-color: green;}
+
+Word wrapping means breaking the long words to next line. Below is the example for that –
+.wordwraptestclass
+{
+ word-wrap:break-word;
+}
+
+List out the new texts added in CSS3?
+
+Below are the list of texts added in CSS3 –
+
+Word-wrap
+Text-overflow
+Word- break
+
+Pseudo-elements are used to add special effects to some selectors.
+CSS in used to apply styles in HTML mark-up. In some cases when extra mark-up or
+styling is not possible for the document,
+then there is a feature available in CSS known as pseudo-elements.
+It will allow extra mark-up to the document without disturbing the actual document.
+
+Pseudo elements are made using a double colon (::) followed by the name of the pseudo element.
+Pseudo-elements are used to add special effects to some selectors, and can only be applied to block-level elements.
+Most commonly used pseudo-elements are ::first_line, ::first_letter, ::before, ::after
+
+Advanced CSS selectors
+https://www.youtube.com/watch?v=EDUInIbo1uU
+
+CSS Position Property
+https://www.youtube.com/watch?v=6jYWYOeQx34
+
+CSS Selector Specificity
+https://www.youtube.com/watch?v=XkhsGIgOZOw
+
+CSS Combinators
+https://www.youtube.com/watch?v=Gn_PHxPKbts
+
+CSS Float Property
+https://www.youtube.com/watch?v=kzHJyA3-IFk
+
+CSS Display Property
+https://www.youtube.com/watch?v=dmp7JY7oekM
+
+CSS selectors - querySelectorAll
+https://www.youtube.com/watch?v=Pz6JG4XNK-U
+https://www.youtube.com/watch?v=IYtv-cqvJRs
+https://www.youtube.com/watch?v=k69s-XlnVnE&t=156s
+
+DOM Traversal
+https://www.youtube.com/watch?v=MdK6x2PoMig
+https://www.youtube.com/watch?v=n-4baDB2pis
+https://www.youtube.com/watch?v=FrX1bzWc8O4
+https://www.youtube.com/watch?v=DBdLkXKHmbI
+https://www.youtube.com/watch?v=IYtv-cqvJRs
+https://www.youtube.com/watch?v=nPc98VSdKvM
+https://www.youtube.com/watch?v=jzrHS9SnktE
+https://www.youtube.com/watch?v=DkEP6CTNwFw
+https://www.youtube.com/watch?v=T5MjeU9O5m0
+https://www.youtube.com/watch?v=IYtv-cqvJRs&t=7s
+https://www.youtube.com/watch?v=i6pgvhZPKAc
+https://www.youtube.com/watch?v=on9p11gv1k4
+https://www.youtube.com/watch?v=eaLKqoB9Fu0
+https://www.youtube.com/watch?v=z_mSgK-6pOQ&t=132s
+
+JQuery
+
+https://www.youtube.com/watch?v=Thnv77n2e6Q&list=PLWKjhJtqVAbmoiNlqLJg1gxEjEuKHHcn_
+
+UI
+https://www.youtube.com/playlist?list=PLRCvSNiMyEmyBsu6nGxB5LtMdAltgNDX5
+https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG
+
+
+Grid and Flexbox layout
+https://www.youtube.com/watch?v=Y7pT1zZLJb0
+https://www.youtube.com/watch?v=xs0mAR8lsTg
+https://www.youtube.com/watch?v=5nx-reyXf8o
+
+
+Responsive layout
+https://www.youtube.com/watch?v=3tLb3i7GB38&list=PL4cUxeGkcC9g9Vh9MAA-XKnfJsWZnPZFw
+
+<div id = "div1">
+  <input type = "text"/>
+  <input type = "time"/>
+  <input type = "password"/>
+</div>
+
+<div id = "div2">
+  <input type = "text"/>
+  <input type = "time"/>
+  <input type = "password"/>
+</div>
+
+
+var list = document.querySelectorAll('input');
+
+Object.prototype.toString.call(list);
+
+// return object nodelist
+
+var list = document.querySelector('input');
+
+Object.prototype.toString.call(list);
+
+//return object htmlinputelement
+
+var list = document.querySelectorAll('input[type = "text"]');
+
+var list = document.querySelectorAll('input: first-child');
+
+var list = document.querySelectorAll('div input');
+
+var divElement = document.getElementById("div1");
+var list = divElement.querySelectorAll('input');
+
+var list = divElement.querySelectorAll('input[type*='t']');
+
+//prototype chaining of DOM components
+
+  null <-- Object <- nodelist and HTMLCollection
+
+  var listNode = Object.getPrototypeOf(div);
+
+
+  function getPrototypeChain(obj){
+    var p = Object.getPrototypeOf(obj);
+    while(p !== null){
+      console.log(p);
+      p = Object.getPrototypeOf(obj);
+    }
+  }
+
+  Object <-- Node <-- Element <-- HTMLElement <-- HTMLDivElement
+
+  Node <-- Document <-- HTMLDocument
+
+  // Access Comment
+
+  Node <-- CharacterData <-- text
+
+  CharacterData <-- comment
+
+  var firstDiv = document.getElementById("div1").firstChild.nextSlibling;
+
+  // DOM Traversal Technique
+
+  - Recursive
+  - Non Recursive
+  - DFT
+  - BFT
+
+
+  Node - Text, Comment, Document, Element, Document Type
+  Element - div, paragraph etc.. (Just Element)
+
+  Node Traversal
+
+  <body>
+    <div>
+        <div>
+            <img src = "sample.jpg" alt="sample">
+            <p> Recursive Traversal </p>
+        </div>
+        <div>
+            <ol>
+                <li>childnodes</li>
+                <li>firstnode</li>
+                <li>lastChild</li>
+                <li>parentNode</li>
+                <li>nextSlibling</li>
+                <li>previousSibling</li>
+            </ol>
+        </div>
+    </div>
+  </body>
+
+  function iterateDomTree(node){
+    console.log(node);
+    console.log(nodeType);
+    console.log(nodeName);
+    console.log(Object.prototype.toString.call(node).slice(8, -1));
+    for(node = node.firstChild; node != null; node = node.nextSlibling){
+      iterateDomTree(node);
+    }
+  }
+
+ //return undefined
+  function iterateDomTree(node){
+    console.log(node);
+    console.log(nodeType);
+    console.log(nodeName);
+    console.log(Object.prototype.toString.call(node).slice(8, -1));
+    for(node = node.firstElementChild; node != null; node = node.nextElementSlibling){
+      iterateDomTree(node);
+    }
+  }
+
+  // iterateDomTree(document.documentElement);
+
+
+querySelector vs querySelectorAll
+
+Return a static collection instead of a live collection
+
+
+//Responsive Design
