@@ -153,6 +153,7 @@ https://www.raywenderlich.com/2696/instruments-tutorial-for-ios-how-to-debug-mem
 https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw/playlists
 IQ--https://www.youtube.com/watch?v=Nfzy1qgxSAg&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA
 https://www.youtube.com/user/knyisztor/playlists
+https://github.com/raywenderlich/swift-style-guide#correctness
 
 ---------------------Autolayout---------------------
 https://www.youtube.com/watch?v=9RydRg0ZKaI&list=PL0dzCUj1L5JHdeOlzJtp5zlsdrliJTC7F
