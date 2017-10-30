@@ -362,6 +362,7 @@ https://javarevisited.blogspot.in/2014/07/top-50-java-multithreading-interview-q
 
 Android
 http://www.vogella.com/tutorials/android.html
+https://www.tutorialspoint.com/android/index.htm
 
 
 
@@ -383,6 +384,8 @@ https://www.intertech.com/Blog/push-notifications-tutorial-for-android-using-goo
 
 
 ---------iOS-----------
+https://www.youtube.com/channel/UCv75sKQFFIenWHrprnrR9aA
+https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA
 
 
 ----------- Ecommerce IQ -----------
