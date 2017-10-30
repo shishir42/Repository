@@ -29,6 +29,24 @@ class ViewController: UIViewController {
             let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
             print(json)
             
+            guard let array = json as? [Any] else {
+                return
+            }
+            
+            for user in array {
+                guard let userDict = user as? [String: Any] else { return }
+                guard let userId = userDict["id"] as? Int else { print("not an Int"); return }
+                guard let name = userDict["name"] as? String else { return }
+                guard let company = userDict["company"] as? [String: String] else { return }
+                guard let companyName = company["name"] else { return }
+                print("----------------------")
+                print(userId)
+                print(name)
+                print(companyName)
+                print(" ")
+            }
+            
+            
         } catch  {
             print(error)
         }
