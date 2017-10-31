@@ -423,3 +423,14 @@ https://www.glassdoor.co.in/Interview/e-commerce-developer-interview-questions-S
 https://www.prestashop.com/en/blog/building-an-online-store-10-questions-to-ask-before-hiring-an-e-commerce-developer
 https://www.glassdoor.co.in/Interview/ecommerce-manager-interview-questions-SRCH_KO0,17.htm
 https://www.glassdoor.co.in/Interview/flydubai-Senior-ECommerce-Manager-Interview-Questions-EI_IE586346.0,8_KO9,33.htm
+
+
+------------------------------Javascript-----------------------
+https://www.codementor.io/nihantanu/21-essential-javascript-tech-interview-practice-questions-answers-du107p62z
+http://www.c-sharpcorner.com/article/top-most-50-javascript-interview-questions-and-answers/
+https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
+https://www.codeproject.com/Articles/620811/Latest-JavaScript-Interview-Questions-and-Answers
+http://www.techbeamers.com/javascript-interview-questions-answers/
+https://www.upwork.com/i/interview-questions/javascript/
+https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
+https://www.thatjsdude.com/interview/js2.html
