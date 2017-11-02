@@ -285,8 +285,7 @@ https://www.youtube.com/playlist?list=PLqq-6Pq4lTTZ_LyvzfrndUOkIvOF4y-_c
 https://www.youtube.com/watch?v=Qg1SvpIau6U
 https://www.youtube.com/watch?v=JEq7Ehw-qk8&index=2&list=PL4SfyCkRAwT7LQmbaxcVWRTaQITtCCAwZ
 
-JavaScript Method Chaining
-https://schier.co/blog/2013/11/14/method-chaining-in-javascript.html
+
 
 https://www.youtube.com/watch?v=xizFJHKHdHw&list=PL7pEw9n3GkoW5bYOhVAtmJlak3ZK7SaDf
 https://www.youtube.com/watch?v=JEq7Ehw-qk8&index=2&list=PL4SfyCkRAwT7LQmbaxcVWRTaQITtCCAwZ
@@ -488,6 +487,8 @@ Examples of libraries: Network protocols, compression, image manipulation, strin
 
 Examples of frameworks: Web application system, Plug-in manager, GUI system. The framework defines the concept but the application defines the fundamental functionality that end-users care about.
 
+JavaScript Method Chaining
+https://schier.co/blog/2013/11/14/method-chaining-in-javascript.html
 
 
 
@@ -562,3 +563,22 @@ https://sathyalog.wordpress.com/tag/difference-between-broadcast-and-emit/
 
 
 ------------------------------NodeJS-----------------------
+https://edgecoders.com/how-well-do-you-know-node-js-36b1473c01c8#.md45d8pbr
+https://www.tutorialspoint.com/nodejs/nodejs_interview_questions.htm
+https://blog.risingstack.com/node-js-interview-questions/
+http://www.c-sharpcorner.com/article/top-50-node-js-interview-questions-and-answers/
+https://blog.zenika.com/2011/04/10/nodejs/
+http://www.journaldev.com/7462/node-js-architecture-single-threaded-event-loop
+https://arenli.com/architecture-of-node-js-internal-codebase-57cd8376b71f#.p37un51o6
+https://rubenalcazar.gitbooks.io/nodejs-notes/content/event_loop.html
+https://nodesource.com/blog/understanding-the-nodejs-event-loop/
+http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/
+https://www.html5rocks.com/en/tutorials/workers/basics/
+http://blog.teamtreehouse.com/using-web-workers-to-speed-up-your-javascript-applications
+https://www.toptal.com/nodejs/interview-questions
+http://career.guru99.com/top-25-interview-questions-on-node-js/
+https://www.edureka.co/blog/interview-questions/top-node-js-interview-questions-2016/
+https://github.com/MaximAbramchuck/awesome-interview-questions#ios
+https://github.com/cshenoy/awesome-interviews#nodejs
+https://github.com/MaximAbramchuck/awesome-interview-questions
+http://www.techbeamers.com/top-30-node-js-interview-questions-answers/
