@@ -39,3 +39,13 @@ var addTo = function(passed) {  // outer function
 
 var addThree = new addTo(3);
 addThree(1); // output 4
+
+//https://javascript.info/closure
+//https://javascriptweblog.wordpress.com/2010/10/25/understanding-javascript-closures/
+
+// Two one sentence summaries:
+//
+// A closure is one way of supporting first-class functions; it is an expression that can reference variables within its scope (when it was first declared), be assigned to a variable, be passed as an argument to a function, or be returned as a function result.
+// Or, a closure is a stack frame which is allocated when a function starts its execution, and not freed after the function returns (as if a 'stack frame' were allocated on the heap rather than the stack!).
+//
+// //https://stackoverflow.com/questions/111102/how-do-javascript-closures-work

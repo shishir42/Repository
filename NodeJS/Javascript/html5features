@@ -1,0 +1,87 @@
+1. New Doctype
+2. The Figure Element
+3. <small> Redefined
+4. No More Types for Scripts and Links
+5. Make your Content Editable
+6. Email Inputs
+7. Local Storage
+8. The Semantic Header and Footer
+9. Required Attribute
+10. Autofocus Attribute
+11. Audio Support
+12. Video Support
+13. Regular Expressions
+14.Web Workers:
+15. Canvas
+16. Application cache
+17. Geolocation
+18. New Input types :
+number
+date / datetime
+color
+range
+url
+email
+tel
+19. elements
+<article>	Defines an article in a document
+<aside>	Defines content aside from the page content
+<bdi>	Isolates a part of text that might be formatted in a different direction from other text outside it
+<details>	Defines additional details that the user can view or hide
+<dialog>	Defines a dialog box or window
+<figcaption>	Defines a caption for a <figure> element
+<figure>	Defines self-contained content
+<footer>	Defines a footer for a document or section
+<header>	Defines a header for a document or section
+<main>	Defines the main content of a document
+<mark>	Defines marked/highlighted text
+<menuitem> 	Defines a command/menu item that the user can invoke from a popup menu
+<meter>	Defines a scalar measurement within a known range (a gauge)
+<nav>	Defines navigation links
+<progress>	Represents the progress of a task
+<rp>	Defines what to show in browsers that do not support ruby annotations
+<rt>	Defines an explanation/pronunciation of characters (for East Asian typography)
+<ruby>	Defines a ruby annotation (for East Asian typography)
+<section>	Defines a section in a document
+<summary>	Defines a visible heading for a <details> element
+<time>	Defines a date/time
+<wbr>	Defines a possible line-break
+
+20
+
+New Input Types
+color
+date
+datetime
+datetime-local
+email
+month
+number
+range
+search
+tel
+time
+url
+week
+
+New Input Attributes
+autocomplete
+autofocus
+form
+formaction
+formenctype
+formmethod
+formnovalidate
+formtarget
+height and width
+list
+min and max
+multiple
+pattern (regexp)
+placeholder
+required
+step
+
+21. Graphics
+<canvas>	Draw graphics, on the fly, via scripting (usually JavaScript)
+<svg>	Draw scalable vector graphics
