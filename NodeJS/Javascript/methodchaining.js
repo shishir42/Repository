@@ -70,3 +70,5 @@ x.add(10).subtract(9).print();  // 1
 
 var x = obj();
 x.add(10).subtract(9).print();  // 1
+
+http://davidshariff.com/blog/chaining-variable-assignments-in-javascript-words-of-caution/

@@ -60,3 +60,5 @@ Promise.all(cleanRoom(), removeGarbage(), winIceCream()).then(function(){
 Promise.race(cleanRoom(), removeGarbage(), winIceCream()).then(function(){
   console.log('al finished');
 });
+
+http://davidshariff.com/blog/futures-and-promises-in-javascript/

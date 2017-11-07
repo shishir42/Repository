@@ -49,3 +49,5 @@ addThree(1); // output 4
 // Or, a closure is a stack frame which is allocated when a function starts its execution, and not freed after the function returns (as if a 'stack frame' were allocated on the heap rather than the stack!).
 //
 // //https://stackoverflow.com/questions/111102/how-do-javascript-closures-work
+
+http://davidshariff.com/blog/javascript-scope-chain-and-closures/
