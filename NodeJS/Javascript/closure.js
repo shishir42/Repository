@@ -51,3 +51,4 @@ addThree(1); // output 4
 // //https://stackoverflow.com/questions/111102/how-do-javascript-closures-work
 
 http://davidshariff.com/blog/javascript-scope-chain-and-closures/
+https://appendto.com/2010/10/how-good-c-habits-can-encourage-bad-javascript-habits-part-1/
