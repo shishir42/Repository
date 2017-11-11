@@ -99,6 +99,22 @@ Pseudo elements are made using a double colon (::) followed by the name of the p
 Pseudo-elements are used to add special effects to some selectors, and can only be applied to block-level elements.
 Most commonly used pseudo-elements are ::first_line, ::first_letter, ::before, ::after
 
+
+A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to apply a style when the user hovers over a button.
+
+div:hover {
+  background-color: #F89B4D;
+}
+
+A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example,  ::first-line can be used to style the first line of a paragraph.
+
+/* The first line of every <p> element. */
+p::first-line {
+ color: blue;
+ text-transform: uppercase;
+}
+
+
 Advanced CSS selectors
 https://www.youtube.com/watch?v=EDUInIbo1uU
 

@@ -923,3 +923,7 @@ http://julien.richard-foy.fr/blog/2011/10/30/functional-inheritance-vs-prototypa
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
 http://www.bolinfest.com/javascript/inheritance.php
 https://www.youtube.com/results?search_query=different+types+of+inheritance+in+javascript
+http://theoryapp.com/javascript-inheritance-pseudoclassical-vs-prototypal/
+https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
+http://amzotti.github.io/javascript/2015/02/09/javascript-inheritance-patterns/
+http://radialglo.github.io/blog/2014/11/24/understanding-pseudoclassical-inheritance-in-javascript/

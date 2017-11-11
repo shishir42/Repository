@@ -49,3 +49,7 @@ Object.defineProperties(obj, props)
 //A function which serves as a setter for the property, or undefined if there is no setter.
 //The function will receive as only argument the new value being assigned to the property.
 //Defaults to undefined.
+
+https://www.bennadel.com/blog/2184-object-create-improves-constructor-based-inheritance-in-javascript---it-doesn-t-replace-it.htm
+https://stackoverflow.com/questions/4166616/understanding-the-difference-between-object-create-and-new-somefunction
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
