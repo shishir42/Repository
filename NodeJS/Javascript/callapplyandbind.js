@@ -82,3 +82,16 @@ When To Use Each
 Use .bind() when you want that function to later be called with a certain context, useful in events. Use .call() or .apply() when you want to invoke the function immediately, and modify the context.
 
 Call/apply call the function immediately, whereas bind returns a function that, when later executed, will have the correct context set for calling the original function. This way you can maintain context in async callbacks and events.
+
+
+//program
+function sum() {
+    return Array.prototype.reduce.call(arguments, function(a, b) {
+        return a + b;
+    }, 0);
+}
+If using ES2015 is an option you can have slightly nicer (subjective) implementation:
+
+const sum = (...args) => [...args].reduce((a, b) => a + b, 0);
+
+array.reduce(function(total, currentValue, currentIndex, arr), initialValue)

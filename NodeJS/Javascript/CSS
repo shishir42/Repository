@@ -297,3 +297,55 @@ Return a static collection instead of a live collection
 
 
 //Responsive Design
+
+
+li {
+    color: black;
+}
+li:nth-child(odd) {
+    color: #777;
+}
+li:nth-child(even) {
+    color: blue;
+}
+<ul>
+    <li>ho</li>
+    <li>ho</li>
+    <li>ho</li>
+    <li>ho</li>
+    <li>ho</li>
+</ul>
+
+http://jsfiddle.net/thirtydot/K3TuN/1323/
+
+
+nth-child
+https://css-tricks.com/almanac/selectors/n/nth-child/
+https://css-tricks.com/useful-nth-child-recipies/
+
+
+CSS Pseudo-classes and element
+https://www.w3schools.com/css/css_pseudo_classes.asp
+
+Selector
+https://www.w3schools.com/cssref/css_selectors.asp
+
+
+Semantic
+https://www.thoughtco.com/why-use-semantic-html-3468271
+https://www.pluralsight.com/guides/html-css/semantic-html?aid=7010a000002BWq6AAG&promo=&oid=&utm_source=google&utm_medium=ppc&utm_campaign=APAC_Dynamic&utm_content=&utm_term=&gclid=Cj0KCQiA_5_QBRC9ARIsADVww16_J4DpsfOeh1VUp16dlM3CTwlQRdU5cb0KM5s5qsUyj8Sw_r--gUoaAm5aEALw_wcB
+
+
+Fixed vs. Fluid vs. Adaptive vs. Responsive
+https://www.youtube.com/watch?v=T6MCkGWSXa0
+https://www.markupbox.com/blog/fixed-vs-fluid-vs-adaptive-vs-responsive-layout/
+https://www.youtube.com/watch?v=t7Sexebj-x4
+
+https://www.w3schools.com/css/css_rwd_intro.asp
+
+
+Media Query
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/

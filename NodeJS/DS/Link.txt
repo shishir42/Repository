@@ -363,6 +363,47 @@ https://javarevisited.blogspot.in/2014/07/top-50-java-multithreading-interview-q
 Android
 http://www.vogella.com/tutorials/android.html
 https://www.tutorialspoint.com/android/index.htm
+https://www.youtube.com/watch?v=zLCZDTluitM
+https://www.youtube.com/watch?v=Hvve_tCZ5CA
+https://www.youtube.com/watch?v=QraiWQjUb9I
+https://www.youtube.com/watch?v=-XmByQdq7Kc
+https://www.youtube.com/watch?v=tlGJqgyQdNI&list=PLB34kSfCqIVN7woJdVaG0-uqqqXo6B_3m
+https://www.youtube.com/watch?v=UK_oSQqJtpY&list=PL-fy4vo6G-0nP9wKP09NHZ3z7IYaT9sEM
+https://www.youtube.com/watch?v=yEC6n2Oq5xc&list=PLmMAzSMza_1ccojoN2A4EYtPZlwxdGdrr
+https://www.youtube.com/watch?v=zzpHGRp5lEw
+https://www.youtube.com/watch?v=2SCQy42SPOQ
+https://www.youtube.com/watch?v=b1jx-kGNod4&list=PL-fy4vo6G-0nMpLoR86sZ9QXxqVcR2Ci7
+
+
+https://www.toptal.com/android/interview-questions
+https://intellipaat.com/interview-question/android-interview-questions/
+http://www.blendinfotech.com/android-interview-questions-and-answers-for-2-years-experience
+https://career.guru99.com/50-android-interview-questions-answers/
+https://www.journaldev.com/10929/android-interview-questions-and-answers
+https://www.glassdoor.co.in/Interview/senior-android-developer-interview-questions-SRCH_KO0,24.htm
+https://www.glassdoor.co.in/Interview/android-developer-interview-questions-SRCH_KO0,17.htm
+https://androidquestions.quora.com/Android-interview-questions-for-2-5-yrs-experienced
+http://techlovejump.com/android-interview-questions-1-2-year-experience-developer-answers/
+http://www.java67.com/2012/10/top-10-android-interview-questions-and.html
+http://skillgun.com/android/advanced-android/interview-questions-and-answers/paper/17
+http://www.onlinetechguru.org/top-20-android-interview-questions-and-answers/
+https://www.linkedin.com/pulse/top-20-android-interview-questions-answers-akash-chauhan/
+http://blog.trsquarelab.com/2016/03/advanced-android-interview-questions_8.html
+https://mindmajix.com/android-interview-questions
+https://websolutionsdone.com/advanced-level-android-interview-questions/
+http://www.s4techno.com/blog/2016/08/05/advance-android-interview-questions/
+http://androidinterviewquestionspdf.blogspot.in/2016/11/70-top-android-interview-questions-and_21.html
+http://www.mobilemammoth.com/11-android-developer-interview-questions-and-answers-pdf-download/
+https://www.slideshare.net/androidtutorial/top-android-interview-questions-and-answers-job-interview-tips
+http://learn.bigclasses.com/android-interview-questions-and-answers
+
+iOS
+
+https://www.youtube.com/watch?v=j0AvzWXBI4c
+https://www.youtube.com/watch?v=56ZO6Gg68tw
+https://www.youtube.com/watch?v=Nfzy1qgxSAg&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA
+
+
 
 
 
