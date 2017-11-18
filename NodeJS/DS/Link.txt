@@ -165,6 +165,19 @@ https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw/playlists
 IQ--https://www.youtube.com/watch?v=Nfzy1qgxSAg&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA
 https://www.youtube.com/user/knyisztor/playlists
 https://github.com/raywenderlich/swift-style-guide#correctness
+https://www.raywenderlich.com/110982/swift-interview-questions-answers
+https://career.guru99.com/top-15-swift-interview-questions/
+https://www.codementor.io/hajderrabiee/basic-swift-interview-questions-job-junior-developer-omuqax3ab
+https://career.guru99.com/top-18-x-code-interview-questions/
+https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a
+https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d
+https://mycodetips.com/swift-ios/swift-programming-language-interview-questions-answers-987.html
+https://www.upwork.com/i/interview-questions/ios/
+http://jayeshkawli.ghost.io/list-of-ios-interview-questions-for-ios-developers/
+http://www.sm-cloud.com/ios-interview-questions-for-senior-developers-2017/
+https://blog.udacity.com/2014/11/your-top-10-swift-questions-answered.html
+
+
 
 ---------------------Autolayout---------------------
 https://www.youtube.com/watch?v=9RydRg0ZKaI&list=PL0dzCUj1L5JHdeOlzJtp5zlsdrliJTC7F

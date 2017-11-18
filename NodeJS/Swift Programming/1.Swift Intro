@@ -1,0 +1,30 @@
+Swift is a fantastic way to write software, whether it’s for phones, desktops, servers, or anything else that runs code.
+
+It’s a safe, fast, and interactive programming language that combines the best in modern language
+
+The compiler is optimized for performance and the language is optimized for development, without compromising on either.
+
+Swift defines away large classes of common programming errors by adopting modern programming patterns:
+
+Variables are always initialized before use.
+Array indices are checked for out-of-bounds errors.
+Integers are checked for overflow.
+Optionals ensure that nil values are handled explicitly.
+Memory is managed automatically.
+Error handling allows controlled recovery from unexpected failures.
+
+Swift code is compiled and optimized to get the most out of modern hardware.Its combination of safety and speed make Swift an excellent choice for everything from “Hello, world!” to an entire operating system.
+
+Swift combines
+  powerful type inference and pattern matching with a modern,
+  lightweight syntax,
+  allowing complex ideas to be expressed in a clear and concise manner.
+
+  As a result, code is not just easier to write, but easier to read and maintain as well.
+
+
+When you use Xcode 9 to build Swift 3 code, most of the new Swift 4 functionality is available. That said, the following features are available only to Swift 4 code:
+
+    Substring operations return an instance of the Substring type, instead of String.
+    The @objc attribute is implicitly added in fewer places.
+    Extensions to a type in the same file can access that type’s private members.
