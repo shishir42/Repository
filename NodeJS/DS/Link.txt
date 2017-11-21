@@ -223,8 +223,59 @@ https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA/playlists
 https://www.youtube.com/watch?v=9RydRg0ZKaI&list=PL0dzCUj1L5JHdeOlzJtp5zlsdrliJTC7F
 
 
--------------Lets Build That App--------------
-https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA/playlists
+---------------------Android UI---------------------
+https://www.youtube.com/results?search_query=slidenerd+android
+
+
+---------------------Android Selected Topic---------------------
+http://www.vogella.com/tutorials/Android/article.html
+http://www.vogella.com/tutorials/AndroidIntent/article.html
+http://www.vogella.com/tutorials/AndroidLifeCycle/article.html
+http://www.vogella.com/tutorials/AndroidPermissions/article.html
+http://www.vogella.com/tutorials/AndroidRecyclerView/article.html
+http://www.vogella.com/tutorials/AndroidDatabinding/article.html
+http://www.vogella.com/tutorials/AndroidListView/article.html
+http://www.vogella.com/tutorials/AndroidFragments/article.html
+http://www.vogella.com/tutorials/AndroidActionBar/article.html
+http://www.vogella.com/tutorials/SwipeToRefresh/article.html
+http://www.vogella.com/tutorials/AndroidXML/article.html
+http://www.vogella.com/tutorials/AndroidFileBasedPersistence/article.html
+http://www.vogella.com/tutorials/AndroidBackgroundProcessing/article.html
+http://www.vogella.com/tutorials/AndroidJSON/article.html
+http://www.vogella.com/tutorials/AndroidArchitecture/article.html
+http://www.vogella.com/tutorials/AndroidHandlingImages/article.html
+http://www.vogella.com/tutorials/AndroidDrawables/article.html
+http://www.vogella.com/tutorials/AndroidParcelable/article.html
+http://www.vogella.com/tutorials/AndroidStylesThemes/article.html
+http://www.vogella.com/tutorials/AndroidLiveWallpaper/article.html
+http://www.vogella.com/tutorials/AndroidWidgets/article.html
+http://www.vogella.com/tutorials/AndroidCustomViews/article.html
+http://www.vogella.com/tutorials/AndroidResourceSelection/article.html
+http://www.vogella.com/tutorials/AndroidAnimation/article.html
+http://www.vogella.com/tutorials/AndroidBuild/article.html
+http://www.vogella.com/tutorials/JenkinsAndroid/article.html
+http://www.vogella.com/tutorials/GoogleCloudMessaging/article.html
+http://www.vogella.com/tutorials/AndroidGoogleMaps/article.html
+http://www.vogella.com/tutorials/AndroidLocationAPI/article.html
+http://www.vogella.com/tutorials/Firebase/article.html
+http://www.vogella.com/tutorials/AndroidCamera/article.html
+http://www.vogella.com/tutorials/AndroidSensor/article.html
+http://www.vogella.com/tutorials/AndroidTouch/article.html
+http://www.vogella.com/tutorials/AndroidGestures/article.html
+http://www.vogella.com/tutorials/AndroidServices/article.html
+http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html
+http://www.vogella.com/tutorials/AndroidBroadcastReceiver/article.html
+http://www.vogella.com/tutorials/AndroidNotifications/article.html
+http://www.vogella.com/tutorials/AndroidApplicationOptimization/article.html
+http://www.vogella.com/tutorials/AndroidSupportLibrary/article.html
+http://www.vogella.com/tutorials/AndroidLibraryProjects/article.html
+http://www.vogella.com/tutorials/Retrofit/article.html
+http://www.vogella.com/tutorials/RxJava/article.html
+http://www.vogella.com/tutorials/AndroidUsefulLibraries/article.html
+http://www.vogella.com/tutorials/JUnit/article.html
+http://www.vogella.com/tutorials/AndroidTesting/article.html
+http://www.vogella.com/tutorials/AndroidTools/article.html
+http://www.vogella.com/tutorials/AndroidCommandLine/article.html
 
 
 
