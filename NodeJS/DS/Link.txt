@@ -157,7 +157,7 @@ https://www.raywenderlich.com/2696/instruments-tutorial-for-ios-how-to-debug-mem
 http://www.aidanf.net/learn-swift/memory_management
 https://academy.realm.io/posts/hector-matos-memory-management/
 http://agostini.tech/2017/07/23/memory-management-in-swift-the-strong-the-weak-and-the-unowned/
-
+https://academy.realm.io/posts/hector-matos-memory-management/
 
 
 ---------------------Swift---------------------
@@ -178,6 +178,46 @@ http://www.sm-cloud.com/ios-interview-questions-for-senior-developers-2017/
 https://blog.udacity.com/2014/11/your-top-10-swift-questions-answered.html
 
 
+---------------------Swift Topics---------------------
+- Custom Encoding and Decoding Keys
+- Custom Cocoa Pods
+- Custom framework
+- Passing data - seque
+- IBDelegate
+- Dispatch Group
+- Encoding and Decoding
+- mvc
+- Sirikit payments
+- Slide menu
+- UIView
+- Firebase
+- UIActivity ViewController
+- UIAlertController
+- CoreData
+- MapKit
+- Webkit
+- CloudKit
+- Firebase
+- Alamofire
+- Core Graphics
+- Screen Autolayout
+- UrlSession
+- Callbacks and Threading
+- Parse JSON
+- Access Control
+- UITableView
+- UICollectionView
+- ReplayKit
+- Uploading Files AWS
+
+
+https://www.youtube.com/channel/UCv75sKQFFIenWHrprnrR9aA/videos
+https://www.youtube.com/results?search_query=Kilo+Loco+ios
+https://www.youtube.com/channel/UCvPFGq6luCqAVGiFpzTvkIA/playlists
+https://www.youtube.com/watch?v=gdOHK2icCbw&list=PLHmNdpdzx21G3QwhJdy_O3UHuBYBnHhrs
+https://www.youtube.com/user/Archetapp/playlists
+https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA/playlists
+
 
 ---------------------Autolayout---------------------
 https://www.youtube.com/watch?v=9RydRg0ZKaI&list=PL0dzCUj1L5JHdeOlzJtp5zlsdrliJTC7F
@@ -188,20 +228,7 @@ https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA/playlists
 
 
 
-----------------------Mobile Apps Security Guideline--------------
-https://www.apple.com/business/docs/iOS_Security_Guide.pdf
-https://developer.apple.com/library/content/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html#//apple_ref/doc/uid/TP40002477-SW1
-https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet
-https://developer.box.com/v2.0/docs/ios-security-guidelines
-https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet
-http://resources.infosecinstitute.com/ios-application-security-part-25-secure-coding-practices-ios-development/#gref
-https://www.checkmarx.com/2015/08/19/mobile-application-security-15-best-practices-for-app-developers/
-https://www.codementor.io/ios/tutorial/ios-security-best-practice-safeguarding-user-data-in-ios
-https://stackoverflow.com/questions/9448632/best-practices-for-ios-applications-security
-https://www.slideshare.net/xfempx/ios-app-security-common
-https://www.raywenderlich.com/45645/ios-app-security-analysis-part-1
-https://code.tutsplus.com/articles/how-to-secure-an-ios-app--cms-26533
-----https://books.nowsecure.com/secure-mobile-development/en/index.html
+
 
 
 -----------------Git------------------------
@@ -361,6 +388,7 @@ https://www.youtube.com/watch?v=Qe0IKzAB1OE
 https://www.youtube.com/watch?v=6MXRNXXgP_0
 
 Reactive
+http://reactivex.io/
 https://www.youtube.com/watch?v=ei7FsoXKPl0
 https://www.youtube.com/watch?v=T9wOu11uU6U&list=PL55RiY5tL51pHpagYcrN9ubNLVXF8rGVi
 https://www.youtube.com/watch?v=AslncyG8whg
@@ -709,3 +737,27 @@ https://github.com/MaximAbramchuck/awesome-interview-questions#ios
 https://github.com/cshenoy/awesome-interviews#nodejs
 https://github.com/MaximAbramchuck/awesome-interview-questions
 http://www.techbeamers.com/top-30-node-js-interview-questions-answers/
+
+
+https://www.youtube.com/watch?v=nZRbnBBupBI
+https://www.youtube.com/watch?v=wtIvu085uU0
+https://www.youtube.com/watch?v=uk2gSHbnhAI
+https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8
+https://www.youtube.com/watch?v=eB9Fq9I5ocs
+https://www.youtube.com/watch?v=pWbMrx5rVBE
+https://www.youtube.com/watch?v=qrIvv6OTN2Y&t=2204s
+https://www.youtube.com/watch?v=PFP0oXNNveg
+https://www.youtube.com/watch?v=xT2AvjQ7q9E&t=3886s
+https://www.youtube.com/watch?v=4rF0tRxZ7Aw&list=PLJvlF1Rakz9fYEeDhOLaECkov6pUDRvyg
+
+Node JS Event loop
+https://www.youtube.com/watch?v=PNa9OMajw9w
+https://www.youtube.com/watch?v=QyUFheng6J0
+https://www.youtube.com/watch?v=EQL9r8UlrPA&t=66s
+https://www.youtube.com/watch?v=P9csgxBgaZ8
+https://www.youtube.com/watch?v=QqSgHuoCmZE
+https://www.youtube.com/watch?v=76q0BCynEjA
+https://www.youtube.com/watch?v=Qe0IKzAB1OE
+https://www.youtube.com/watch?v=6MXRNXXgP_0
+https://www.youtube.com/watch?v=QyUFheng6J0
+https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=743s
