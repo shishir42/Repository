@@ -927,3 +927,125 @@ http://theoryapp.com/javascript-inheritance-pseudoclassical-vs-prototypal/
 https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
 http://amzotti.github.io/javascript/2015/02/09/javascript-inheritance-patterns/
 http://radialglo.github.io/blog/2014/11/24/understanding-pseudoclassical-inheritance-in-javascript/
+
+
+//Prototypal Inheritance
+
+//Prototype is the base/model on which something is built/referred.
+//Say for example : This fighter plane is based on that Prototype/model
+
+Object Oriented Programming languages like C#, Java etc it is nothing but Inheritance.
+
+For Example : Class Child inherits/extends Base.
+
+Class Base {
+
+}
+Class Child extends Base{
+
+}
+
+Thirdly let us understand what Prototype means in “Javascript” World?
+
+In Javascript it means “Object based inheritance” Now let us achieve this object based inheritance with simple example:
+
+Model / Prototype
+
+
+
+function Student() {
+
+    this.studentName = "";
+
+}
+
+var stud = new Student();
+
+function StudentCRUD() {
+
+    this.add = function() {
+
+        alert("add----> " + this.studentName)
+
+    }
+
+    this.delete = function() {
+
+        alert("Delete---> " + this.studentName);
+
+    }
+
+}
+
+StudentCRUD.prototype = new Student();
+
+var obj = new StudentCRUD();
+
+obj.studentName = "Student1"; // This property is of Parent/Base
+
+obj.add(); // This function is of Child
+
+Output: add----> Student1
+By looking at the above example we can write three important points:
+
+Prototype is a object which points to other object.
+Every object has a Prototype (Default is Object).
+It follows “Method Chaining Model”
+
+1.Every object has a Prototype (Default is Object).
+
+Here you can see __proto__ is pointing to “Object” because it is a simple Object.
+
+https://www.cronj.com/blog/wp-content/uploads/Screenshot-from-2017-11-19-21-36-50.png
+
+2. Prototype is a object which points to other object.
+
+Here you can see __proto__ is pointing to “Student” not “Object”
+
+https://www.cronj.com/blog/wp-content/uploads/Screenshot-from-2017-11-19-21-37-53.png
+
+3. It follows “Method Chaining Model”.
+
+To understand this let us change our program a little bit lets move “delete” function to base class.
+
+
+
+function Student() {
+
+   this.studentName = "";
+
+   this.delete = function() {
+
+       alert("Delete---> " + this.studentName);
+
+   }
+
+}
+
+var stud = new Student();
+
+function StudentCRUD() {
+
+   this.add = function() {
+
+       alert("add----> " + this.studentName)
+
+   }
+
+
+
+}
+
+StudentCRUD.prototype = new Student();
+
+var obj = new StudentCRUD();
+
+obj.studentName = "Student1"; // This property is of Parent/Base
+
+obj.delete(); // This function is of Parent
+
+Output: Delete----> Student1
+
+https://www.cronj.com/blog/wp-content/uploads/Untitled-Diagram-5.png
+https://jsfiddle.net/tb398oq8/2/
+https://jsfiddle.net/8spdbasb/

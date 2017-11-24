@@ -621,6 +621,7 @@ http://devintorr.es/blog/2010/05/21/a-javascript-lru-least-recently-used-cache/
 https://chrisrng.svbtle.com/lru-cache-in-javascript
 https://alaindefrance.wordpress.com/2014/10/05/lru-cache-implementation/
 https://sycure.wordpress.com/2015/09/03/least-recently-used-or-lru-cache-a-simple-implementation-in-java/
+https://www.codementor.io/nihantanu/21-essential-javascript-tech-interview-practice-questions-answers-du107p62z
 
 
 https://www.youtube.com/watch?v=yo3MJPcVJc8
@@ -791,6 +792,7 @@ http://www.techbeamers.com/top-30-node-js-interview-questions-answers/
 
 
 https://www.youtube.com/watch?v=nZRbnBBupBI
+
 https://www.youtube.com/watch?v=wtIvu085uU0
 https://www.youtube.com/watch?v=uk2gSHbnhAI
 https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8
@@ -812,3 +814,15 @@ https://www.youtube.com/watch?v=Qe0IKzAB1OE
 https://www.youtube.com/watch?v=6MXRNXXgP_0
 https://www.youtube.com/watch?v=QyUFheng6J0
 https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=743s
+
+
+Node JS
+JS IQ
+Android
+Swift
+Design Pattern
+AngularJS
+Java garbage collection, jvm, collection
+c#
+
+http://www.geeksforgeeks.org/java/
