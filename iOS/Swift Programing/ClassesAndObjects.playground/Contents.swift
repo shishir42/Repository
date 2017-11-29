@@ -97,3 +97,11 @@ enum Suit {
 }
 let hearts = Suit.hearts
 let heartsDescription = hearts.simpleDescription()
+
+
+var favoriteGenres: Set<String> = ["Rock", "Classical", "Hip hop"]
+
+for genre in favoriteGenres.sorted() {
+    print("\(genre)")
+}
+

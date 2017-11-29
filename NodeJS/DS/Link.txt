@@ -127,6 +127,7 @@ http://www.techrepublic.com/blog/software-engineer/understand-memory-management-
 http://www.pasanpremaratne.com/2013/12/04/ios-memory-management-p2/
 https://fuller.li/posts/memory-management-arc/
 https://medium.com/@ITZDERR/ios-memory-management-arc-in-objective-c-and-swift-part2-f8d269c5e9c
+
 http://www.sm-cloud.com/interview-questions-how-memory-management-is-handled-on-ios/
 http://way2ios.com/development/ios-development-2/ios-memory-management-faq/
 https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
@@ -158,6 +159,35 @@ http://www.aidanf.net/learn-swift/memory_management
 https://academy.realm.io/posts/hector-matos-memory-management/
 http://agostini.tech/2017/07/23/memory-management-in-swift-the-strong-the-weak-and-the-unowned/
 https://academy.realm.io/posts/hector-matos-memory-management/
+
+---------------------iOS---------------------
+https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a
+https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d
+https://www.codementor.io/mattgoldspink/ios-interview-tips-questions-answers-objective-c-du1088nfb
+https://www.toptal.com/ios/interview-questions
+https://intellipaat.com/interview-question/ios-interview-questions/
+http://www.geekinterview.com/Interview-Questions/iOS
+https://www.upwork.com/i/interview-questions/ios/
+https://career.guru99.com/top-18-x-code-interview-questions/
+https://www.nextstep4it.com/objective-c-interview-questions-answers/
+http://cocoainterviews.blogspot.in/2012/10/cocoa-objective-c-interview-questions.html
+http://www.sm-cloud.com/ios-interview-questions-for-senior-developers/
+http://www.sm-cloud.com/ios-interview-questions-for-senior-developers/
+https://www.huntmyideas.com/blogs/category/top-400-ios-interview-questions
+https://www.thecrazyprogrammer.com/2015/11/ios-interview-questions-and-answers.html
+http://www.knowstack.com/cocoa-objective-c-interview-questions-part-2/
+https://www.edureka.co/blog/interview-questions/ios-interview-questions/
+https://medium.com/cocoaacademymag/25-ios-interview-questions-and-answers-for-junior-developers-19bfe6e99b0
+https://www.scribd.com/doc/224968401/IOS-Developer-Interview-Questions-and-Answers
+https://www.mytectra.com/interview-question/ios-interview-questions-and-answers/
+https://www.iteanz.com/ios-interview-questions/
+https://learning.naukri.com/articles/ios-interview-questions-answers/
+https://insights.dice.com/2013/11/14/technical-interview-questions-ios-developers/
+https://appdevelopermagazine.com/5686/2017/11/17/top-20-ios-interview-questions/
+https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a
+https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
+https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d
+https://developer.apple.com/library/content/releasenotes/General/WhatsNewIniOS/Articles/iOS_11_0.html
 
 
 ---------------------Swift---------------------
