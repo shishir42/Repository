@@ -161,6 +161,7 @@ http://agostini.tech/2017/07/23/memory-management-in-swift-the-strong-the-weak-a
 https://academy.realm.io/posts/hector-matos-memory-management/
 
 ---------------------iOS---------------------
+https://github.com/durul/My-Medium-Articles
 https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a
 https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d
 https://www.codementor.io/mattgoldspink/ios-interview-tips-questions-answers-objective-c-du1088nfb
@@ -188,7 +189,14 @@ https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a
 https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
 https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d
 https://developer.apple.com/library/content/releasenotes/General/WhatsNewIniOS/Articles/iOS_11_0.html
-
+https://stackoverflow.com/questions/11511548/best-way-to-cache-images-on-ios-app
+https://stackoverflow.com/questions/14898994/ios-how-do-i-asynchronously-download-and-cache-images-and-videos-for-use-in-my-a
+https://stackoverflow.com/questions/23133061/ios-image-cache-and-retrieval
+https://codereview.stackexchange.com/questions/115908/caching-image-in-memory-or-on-disk
+https://stackoverflow.com/questions/6519847/what-is-the-life-cycle-of-an-iphone-application
+http://objectivecc.blogspot.in/2012/03/application-life-cycle-uiapplication.html
+https://blog.caramba.io/ios-uiviewcontroller-lifecycle-261e3e2f6133
+https://www.raywenderlich.com/163857/whats-new-swift-4
 
 ---------------------Swift---------------------
 https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw/playlists
@@ -239,6 +247,7 @@ https://blog.udacity.com/2014/11/your-top-10-swift-questions-answered.html
 - UICollectionView
 - ReplayKit
 - Uploading Files AWS
+- IBDesignable
 
 
 https://www.youtube.com/channel/UCv75sKQFFIenWHrprnrR9aA/videos
@@ -856,3 +865,13 @@ Java garbage collection, jvm, collection
 c#
 
 http://www.geeksforgeeks.org/java/
+
+
+
+Weekend
+
+1) Node JS REST api - https://www.pluralsight.com/courses/node-js-express-rest-web-services?aid=7010a000002BWq6AAG&promo=&oid=&utm_source=google&utm_medium=ppc&utm_campaign=APAC_Dynamic&utm_content=&utm_term=&gclid=CjwKCAiA9f7QBRBpEiwApLGUih02BI1XUSHrE8UlDJ2VrKboxYo8ZXM6U5d-TPWMawQWVK-k422kCxoCg_EQAvD_BwE
+2) Swift
+3) JavaScript and AngularJS
+4) iOS - tableview, collectionview,  core data and sqlite practical, Alamofire
+5) datastructure array video

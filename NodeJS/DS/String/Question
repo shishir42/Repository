@@ -1,0 +1,599 @@
+1. String trimming without using the trim() method
+
+
+public class AllTrim {
+
+
+    public static void main(String[] args) {
+        int flag=0;
+        int j=0;
+        String s="      You     Stupid    Coder ";
+        char ch[]=s.toCharArray();
+
+        for(int i=0;i<ch.length;i++)
+        {
+            if((""+s.charAt(i)).equals(" "))
+            {
+                flag++;  // counting number of spaces
+            }
+        }
+
+        char ch1[]=new char[s.length()-flag];
+
+        for(int i=0;i<s.length();i++)
+        {
+            if(!(""+s.charAt(i)).equals(" "))
+            {
+
+                ch1[j]=s.charAt(i);
+                j++;
+
+            }
+        }
+
+        for(int i=0;i<ch1.length;i++)
+        {
+            System.out.print(ch1[i]);
+        }
+    }
+
+}
+
+
+2. Leading trimming of String
+
+
+public class LeadingTrim {
+
+
+    public static void main(String[] args) {
+        int flag=0;
+        String s="        You Stupid  Coder";
+
+
+        for(int i=0;i<s.length();i++)
+        {
+            if((""+s.charAt(i)).equals(" "))
+            {
+            flag++;
+            }
+            else
+            {
+            break;
+            }
+        }
+        char ch[]=new char[s.length()-flag];
+        char ch1[]=s.toCharArray();
+        for(int i=0;i<ch.length;i++)
+        {
+        ch[i]=ch1[i+flag];
+        System.out.print(ch[i]);
+        }
+    }
+
+}
+
+
+
+3. Trailing trimming of String
+
+
+public class TrailingTrim {
+
+
+    public static void main(String[] args) {
+         int flag=0;
+        String s="You Stupid  Coder               ";
+
+
+        for(int i=s.length()-1;i>0;i--)
+        {
+            if((""+s.charAt(i)).equals(" "))
+            {
+            flag++;
+            }
+            else
+            {
+            break;
+            }
+        }
+
+        char ch[]=new char[s.length()-flag];
+        char ch1[]=s.toCharArray();
+        for(int i=0;i<ch.length;i++)
+        {
+        ch[i]=ch1[i];
+        System.out.print(ch[i]);
+        }
+    }
+
+    }
+
+
+
+4.Counting number of characters in a Sting
+
+
+
+public class CountCharacters {
+
+public static void main(String[] args) {
+       int flag=0;
+        String s="You  Stupid  Coder  ";
+       for(int i=0;i<s.length();i++)
+       {
+           if(!(""+s.charAt(i)).equals(" "))
+           {
+               flag++;
+           }
+       }
+       System.out.println("Number of charcters in String is: "+flag);
+    }
+
+}
+
+
+
+5.Counting number of vowels in a String
+
+
+public class CountVowel {
+
+    static int  count=0;
+    public static void main(String[] args) {
+
+        String s="You Stupid Coder";
+        System.out.println(s);
+
+      for(int i=0;i<s.length();i++)
+      {
+
+          if(s.charAt(i)=='a'){
+
+              count++;
+          }
+
+          if(s.charAt(i)=='e'){
+
+              count++;
+          }
+          if(s.charAt(i)=='i'){
+
+              count++;
+          }
+          if(s.charAt(i)=='o'){
+
+              count++;
+          }
+          if(s.charAt(i)=='u'){
+
+              count++;
+          }
+
+      }
+      System.out.println("numer of vowels in given string is " +count);
+    }
+
+}
+
+
+6. Counting number of words in a String
+
+
+public class CountWords {
+
+    public static void main(String[] args) {
+        int count=0;
+        String s="     You Stupid  Coder  ";
+        String s1=s.trim();
+        String s2=s1+" ";
+        for(int i=0;i<s2.length();i++)
+        {
+            if((""+s2.charAt(i)).equals(" ")) {
+                if(!(""+s2.charAt(i-1)).equals(" "))
+                {
+                count++;
+                }
+            }
+
+    }
+        System.out.println("no of words in String is "+count);
+    }
+
+}
+
+
+7. Count the frequency of word in a String
+
+
+public class FrequencyCount {
+
+
+    public static void main(String[] args) {
+        int count=0;
+        int index=0;
+        int  flag=0;
+        String s=" that the quick brown the focks jump on the  ";
+        String s1=s.trim();
+        String s2=s1+" ";
+        for(int i=0;i<s2.length();i++)
+        {
+            if((""+s2.charAt(i)).equals(" ")) {
+                if(!(""+s2.charAt(i-1)).equals(" "))
+                {
+                count++;
+                }
+            }
+
+    }
+
+        String s3[]=new String[count];
+        for(int i=0;i<count;i++)
+        {
+            s3[i]="";
+        }
+
+        char ch[]=s2.toCharArray();
+        for(int i=0;i<ch.length;i++)
+        {
+
+            if(!(""+s2.charAt(i)).equals(" "))
+            {
+                s3 [index]+=""+ch[i];
+            }
+
+            else if((""+s2.charAt(i)).equals(" ")&&!(""+s2.charAt(i-1)).equals(" "))
+            {
+
+                index++;
+
+
+
+            }
+        }
+
+        for(int i=0;i<s3.length;i++)
+        {
+            for(int j=0;j<s3.length;j++)
+            {
+                if(s3[j].equals(s3[i]))
+                {
+                    flag++;
+                }
+
+
+
+            }
+
+                      System.out.println(s3[i]+ "=" +flag);
+
+
+            flag=0;
+        }
+    }
+
+}
+
+
+
+8. Find one String into other String
+
+
+public class Find {
+
+
+    public static void main(String[] args)
+    {
+      int flag=0;
+      String s="program to find one string  in other";
+      String s1="to find";
+      String s2[]=s.split(" ");
+      String s3[]=s1.split(" ");
+
+     for(int i=0;i<s3.length;i++)
+      {
+          for(int j=0;j<s2.length;j++)
+          {
+
+          if(s3[i].equals(s2[j]))
+          {
+
+          int m=i;
+          int n=j;
+           while(m<s3.length)
+           {
+
+               if(s3[m].equals(s2[n]))
+               {
+                   m++;
+                   n++;
+                   flag++;
+
+
+               }
+              else
+                  break;
+
+           }
+           break;
+          }
+
+
+          }
+          break;
+      }
+
+
+      if(flag==s3.length)
+      {
+          System.out.println("String found");
+      }
+      else
+          System.out.println("string not found");
+    }
+
+}
+
+
+
+9. Single occurrence of a character in a word
+
+
+public class SingleOccurrence {
+
+
+    public static void main(String[] args) {
+        String s="yyyyyyooouuu  sssstttuuppid  coddderr";
+        String s1=s+"$";
+        for(int i=0;i<s.length();i++)
+        {
+            if(!(""+s1.charAt(i)).equals(""+s1.charAt(i+1)))
+            {
+                System.out.print(s.charAt(i));
+            }
+        }
+    }
+
+}
+
+
+10. Reversing the given String
+
+
+public class StringReverse {
+
+
+    public static void main(String[] args) {
+        String s="my name is aakash";
+        char ch[]=s.toCharArray();
+        for(int i=ch.length-1;i>=0;i--)
+        {
+            System.out.print(ch[i]);
+        }
+    }
+
+}
+
+11. Reversing each word of given String
+
+
+public class ReverseEachWord {
+
+
+    public static void main(String[] args) {
+
+     String s="you stupid coder";
+     String s1[]=s.split(" ");
+
+     for(int i=0;i<s1.length;i++)
+     {
+         for(int j=s1[i].length()-1;j>=0;j--)
+         {
+         System.out.print(s1[i].charAt(j));
+         }
+         System.out.print(" ");
+     }
+    }
+
+}
+
+
+
+
+12. Comparing two String with other
+
+
+
+public class StringCompare
+{
+    public int compare(String s1,String s2)
+    {
+
+        for(int i=0;i<s1.length();i++)
+        {
+            if(i<s2.length())
+            {
+                if(s1.charAt(i)!=s2.charAt(i))
+                {
+
+                    int a=s1.charAt(i)-s2.charAt(i);
+                    return a;
+
+                }
+            }
+
+        }
+
+        return s1.length()-s2.length();
+
+    }
+
+    public static void main(String... args)
+    {
+        StringCompare sc=new StringCompare();
+        int b=sc.compare("you","stupid coder");
+        System.out.println(b);
+    }
+}
+
+
+13. Number to word conversion
+
+
+import java.util.*;
+public class NumToWord
+{
+    public void convertNumber(int n, String ch)
+    {
+        String one[]={" "," one"," two"," three"," four"," five"," six"," seven"," eight"," Nine"," ten"," eleven"," twelve"," thirteen"," fourteen","fifteen"," sixteen"," seventeen"," eighteen"," nineteen"};
+        String ten[]={" "," "," twenty"," thirty"," forty"," fifty"," sixty","seventy"," eighty"," ninety"};
+
+         if(n > 19)
+         {
+            System.out.print(ten[n/10]+" "+one[n%10]);
+         }
+
+
+         else
+         {
+            System.out.print(one[n]);
+         }
+         if(n > 0)
+
+            System.out.print(ch);
+    }
+    public static void main(String... args)
+    {
+        int n=0;
+        Scanner scanf = new Scanner(System.in);
+        System.out.println("Enter an integer number: ");
+        n = scanf.nextInt();
+
+         if(n <= 0)
+         {
+            System.out.println("Enter numbers greater than 0");
+         }
+
+         else
+         {
+             NumToWord a=new NumToWord();
+             a.convertNumber((n/10000000)%100," crore");
+             a.convertNumber(((n/100000)%100)," lakh");
+             a.convertNumber(((n/1000)%100)," thousand");
+             a.convertNumber(((n/100)%10)," hundred");
+             a.convertNumber((n%100)," ");
+         }
+    }
+}
+
+
+
+14. String character exchange
+
+
+public class StringExchange
+{
+    public static void main(String... args)
+    {
+        int a=0;
+        char c=0;
+        String s="stupidcoder";
+        char ch[]=s.toCharArray();
+        int len=ch.length/2;
+        for(int i=0;i<len;i++)
+        {
+            a=i;
+            c=ch[a+i];
+            ch[a+i]=ch[a+i+1];
+            ch[a+i+1]=c;
+
+        }
+        for(int j=0;j<ch.length;j++)
+        {
+            System.out.print(ch[j]);
+        }
+    }
+}
+
+
+
+15. Finding the largest palindrome in  String
+
+
+import java.util.Scanner;
+public class StringPalindrome
+{
+    public static void main(String... args)
+    {
+        String s1,s2="";
+        System.out.println("Enter The String To Find Out The Largest Palindrome:\n");
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        System.out.println("");
+
+
+        String sub=s.substring(0,1);
+
+
+        for(int i=0;i<s.length();i++)
+        {
+
+            for(int j=s.length()-1;j>i;j--)
+            {
+                if((""+s.charAt(i)).equals((""+s.charAt(j))))
+                {
+
+                    s1=s.substring(i,j+1);
+
+                    for(int k=s1.length()-1;k>=0;k--)
+                    {
+                        s2=s2+s1.charAt(k);
+                    }
+
+
+
+                    if(s1.equals(s2))
+                    {
+
+                        if(s1.length()>sub.length())
+                        {
+                            sub=s1;
+                        }
+
+                    }
+                    s2="";
+
+                }
+            }
+        }
+        System.out.println("The Largest Palindrome In The Given String Is: " +sub);
+    }
+}
+
+
+
+16. Converting a String into Integer
+
+
+public class StringToInt
+{
+    public int convert(String s)
+    {
+        int sum=0;
+        char ch[]=s.toCharArray();
+        int a=(int)'0';
+        for(char c:ch)
+        {
+            int b=(int)c;
+            sum=(sum*10)+(b-a);
+        }
+        return sum;
+    }
+
+    public static void main(String... args)
+    {
+        StringToInt st=new StringToInt();
+        int z=st.convert("40589");
+        System.out.println(z);
+    }
+}
