@@ -855,6 +855,11 @@ https://www.youtube.com/watch?v=QyUFheng6J0
 https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=743s
 
 
+Open source
+http://www.appmonks.net/id/67/5-Open-Source-iOS-Libraries-For-App-Development./
+https://developer.apple.com/library/content/releasenotes/General/WhatsNewIniOS/Articles/iOS_11_0.html
+
+
 Node JS
 JS IQ
 Android
@@ -873,5 +878,6 @@ Weekend
 1) Node JS REST api - https://www.pluralsight.com/courses/node-js-express-rest-web-services?aid=7010a000002BWq6AAG&promo=&oid=&utm_source=google&utm_medium=ppc&utm_campaign=APAC_Dynamic&utm_content=&utm_term=&gclid=CjwKCAiA9f7QBRBpEiwApLGUih02BI1XUSHrE8UlDJ2VrKboxYo8ZXM6U5d-TPWMawQWVK-k422kCxoCg_EQAvD_BwE
 2) Swift
 3) JavaScript and AngularJS
-4) iOS - tableview, collectionview,  core data and sqlite practical, Alamofire
+4) iOS - tableview, collectionview,  core data and sqlite practical, Alamofire, GCD, Blocks
 5) datastructure array video
+6) Observer, Notification and Delegate
