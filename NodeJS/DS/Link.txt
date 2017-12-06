@@ -161,6 +161,8 @@ http://agostini.tech/2017/07/23/memory-management-in-swift-the-strong-the-weak-a
 https://academy.realm.io/posts/hector-matos-memory-management/
 
 ---------------------iOS---------------------
+https://career.guru99.com/top-25-objective-c-interview-questions/
+https://www.codementor.io/mattgoldspink/ios-interview-tips-questions-answers-objective-c-du1088nfb
 https://github.com/durul/My-Medium-Articles
 https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a
 https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d
@@ -249,13 +251,149 @@ https://blog.udacity.com/2014/11/your-top-10-swift-questions-answered.html
 - Uploading Files AWS
 - IBDesignable
 
-
+-------------------iOS App Design----------------------
 https://www.youtube.com/channel/UCv75sKQFFIenWHrprnrR9aA/videos
 https://www.youtube.com/results?search_query=Kilo+Loco+ios
 https://www.youtube.com/channel/UCvPFGq6luCqAVGiFpzTvkIA/playlists
 https://www.youtube.com/watch?v=gdOHK2icCbw&list=PLHmNdpdzx21G3QwhJdy_O3UHuBYBnHhrs
 https://www.youtube.com/user/Archetapp/playlists
 https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA/playlists
+https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw/playlists
+https://www.youtube.com/user/Archetapp/playlists
+https://www.youtube.com/watch?v=vWTrTHlt6Pk&list=PLZhNP5qJ2IA2z5ntmXoWhn8eCRstWfvu2
+https://www.youtube.com/user/CodeWithChris/playlists
+
+
+
+-------------------core data----------------------
+http://qs4int.blogspot.in/2013/01/core-data.html
+https://www.quora.com/What-are-the-questions-can-be-asked-on-core-data-in-any-iOS-interview
+http://www.c-sharpcorner.com/UploadFile/d49768/difference-between-coredata-and-database-in-iphone/
+https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/Concurrency.html
+https://cocoacasts.com/core-data-and-concurrency/
+https://www.raywenderlich.com/174082/multiple-managed-object-contexts-with-core-data-tutorial
+https://www.raywenderlich.com/173972/getting-started-with-core-data-tutorial-2
+https://www.tutorialspoint.com/ios_app_development/ios_andndash_core_data.asp
+https://www.appcoda.com/introduction-to-core-data/
+https://www.appcoda.com/core-data-tutorial-update-delete/
+https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html
+https://code.tutsplus.com/tutorials/core-data-from-scratch-core-data-stack--cms-20926
+http://www.techotopia.com/index.php/An_iOS_7_Core_Data_Tutorial
+http://www.techotopia.com/index.php/An_iOS_9_Core_Data_Tutorial
+https://cocoacasts.com/an-introductory-core-data-tutorial
+https://www.codementor.io/codementorteam/core-data-tutorial-saving-and-fetching-pdphdmh50
+https://code.tutsplus.com/tutorials/core-data-from-scratch-concurrency--cms-22131
+https://marcosantadev.com/coredata_crud_concurrency_swift_1/
+https://blog.codecentric.de/en/2014/11/concurrency-coredata/
+https://medium.com/soundwave-stories/core-data-cffe22efe716
+https://oleb.net/blog/2014/06/core-data-concurrency-debugging/
+https://pawanpoudel.svbtle.com/fixing-core-data-concurrency-violations
+https://developer.apple.com/documentation/coredata/using_core_data_in_the_background
+https://www.cocoanetics.com/2012/07/multi-context-coredata/
+https://stackoverflow.com/questions/24657437/core-data-background-context-best-practice
+https://code.tutsplus.com/tutorials/core-data-and-swift-concurrency--cms-25118
+https://www.objc.io/issues/2-concurrency/common-background-practices/
+https://cocoacasts.com/more-core-data-and-concurrency/
+https://dzone.com/articles/coredata-crud-with-concurrency-in-swift-part-1
+https://dzone.com/articles/coredata-crud-with-concurrency-in-swift-part-2-1
+http://docs.huihoo.com/apple/wwdc/2012/session_214__core_data_best_practices.pdf
+https://academy.realm.io/posts/jesse-squires-core-data-swift/
+https://stackoverflow.com/questions/33423824/how-save-to-coredata-in-background-thread-using-swift
+https://stackoverflow.com/questions/27067495/background-thread-with-core-data-and-nsfetchedresultscontroller
+http://bluelemonbits.com/index.php/2016/11/27/synchronizing-main-and-background-core-data-threads-swift-3/
+http://themainthread.com/blog/2015/08/core-data-stack-in-swift.html
+https://github.com/iascchen/SwiftCoreDataSimpleDemo/blob/master/SwiftCoreDataSimpleDemo/CoreDataHelper.swift
+https://cocoacasts.com/asynchronous-fetching-with-core-data-and-operations
+https://stackoverflow.com/questions/29489540/use-multiple-managed-objects-context-with-core-data-base
+https://medium.com/killingmeswiftly/core-data-part-2-child-contexts-and-multiple-managed-object-contexts-9e881519997f
+http://developmentnow.com/2015/04/28/experimenting-with-the-parent-child-concurrency-pattern-to-optimize-coredata-apps/
+https://www.slideshare.net/xzolian/core-data-with-multiple-managed-object-contexts
+https://stackoverflow.com/questions/4545531/what-is-meant-by-coredata-is-not-thread-safe
+https://github.com/adam-roth/coredata-threadsafe
+http://www.cimgf.com/2011/05/04/core-data-and-threads-without-the-headache/
+https://academy.realm.io/posts/marcus-zarra-core-data-threading/
+https://stackoverflow.com/questions/2138252/core-data-multi-thread-application
+https://cutecoder.org/programming/multithreading-core-data-ios/
+https://www.touchwonders.com/blog/fast-and-non-blocking-core-data-back-end-programming
+https://medium.com/@jamesrochabrun/parsing-json-response-and-save-it-in-coredata-step-by-step-fb58fc6ce16f
+https://medium.com/ios-os-x-development/restkit-tutorial-how-to-fetch-data-from-an-api-into-core-data-9326af750e10
+https://www.raywenderlich.com/15916/how-to-synchronize-core-data-with-a-web-service-part-1
+https://www.objc.io/issues/10-syncing-data/networked-core-data-application/
+https://code.tutsplus.com/tutorials/core-data-and-swift-managed-objects-and-fetch-requests--cms-25068
+https://github.com/3lvis/Sync
+https://codentrick.com/coredata-syncing-with-swift/
+https://blog.couchbase.com/syncing-with-core-data/
+https://www.bipsync.com/blog/implementing-data-sync-between-a-web-api-and-a-core-data-store/
+https://www.quora.com/What-are-the-best-practices-for-synchronizing-data-between-an-iOS-app-and-a-web-app
+https://www.raywenderlich.com/17927/how-to-synchronize-core-data-with-a-web-service-part-2
+https://stackoverflow.com/questions/4751286/plist-vs-sqlite-vs-core-data-for-a-rss-reader-type-application
+https://stackoverflow.com/questions/4964408/should-i-save-in-plist-or-core-data
+https://stackoverflow.com/questions/523482/core-data-vs-sqlite-3
+https://cocoacasts.com/what-is-the-difference-between-core-data-and-sqlite/
+https://dzone.com/articles/ios-databases-sqllite-vs-core-data-vs-realm
+http://www.drdobbs.com/mobile/ios-data-storage-core-data-vs-sqlite/240168843
+https://rollout.io/blog/ios-databases-sqllite-core-data-realm/
+https://www.cocoawithlove.com/2010/02/differences-between-core-data-and.html
+https://medium.com/@hiddenbrains/sqlite-core-data-and-realm-which-one-to-choose-for-ios-database-b12c0cd424df
+https://stackoverflow.com/questions/6663854/difference-between-coredata-and-sqlite
+https://stackoverflow.com/questions/1318467/use-coredata-or-sqlite-on-iphone
+https://maniacdev.com/2009/09/iphone-sqlite-vs-core-data-%E2%80%93-which-to-choose
+https://stackoverflow.com/questions/1045238/core-data-vs-sqlite-and-performance
+https://www.quora.com/When-and-why-should-we-choose-core-data-over-SQLite-and-vice-versa
+https://sebastiandobrincu.com/blog/5-reasons-why-you-should-choose-realm-over-coredata
+https://www.objc.io/issues/4-core-data/core-data-overview/
+
+
+
+---------------------Java IQ-----------------------
+http://codepumpkin.com/interface-vs-abstract-class/
+http://codepumpkin.com/private-methods-interface-java-9/
+http://codepumpkin.com/hashtable-vs-synchronizedmap-vs-concurrenthashmap/
+http://codepumpkin.com/hashmap-internal/
+http://codepumpkin.com/hashset-internal-implementation/
+http://codepumpkin.com/countdownlatch-vs-cyclicbarrier/
+http://codepumpkin.com/create-immutable-class-java/
+http://codepumpkin.com/use-private-constructor-java/
+http://codepumpkin.com/final-keyword/
+http://codepumpkin.com/transient-keyword-java/
+
+
+----------------------Push Notification-------------------
+https://www.appcoda.com/push-notification-ios/
+https://www.raywenderlich.com/156966/push-notifications-tutorial-getting-started
+https://code.tutsplus.com/tutorials/setting-up-push-notifications-on-ios--cms-21925
+https://pushtry.com/iostutorial.aspx
+http://api.shephertz.com/tutorial/Push-Notification-iOS/
+https://pusher.com/tutorials/push-notifications-ios
+https://eladnava.com/send-push-notifications-to-ios-devices-using-xcode-8-and-swift-3/
+https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html
+https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html
+http://ashishkakkad.com/2016/09/push-notifications-in-ios-10-objective-c/
+https://www.appcoda.com/tag/push-notification/
+http://codeobjectivec.blogspot.in/2016/01/apple-push-notifications-service-apns.html
+http://blogs.innovationm.com/push-notification-handling-in-swift-3-0/
+https://medium.com/yay-its-erica/usernotifications-in-swift-3-part-1-d250e54440c1
+http://ashishkakkad.com/2016/09/push-notifications-in-ios-10-swift/
+https://www.codementor.io/ramachandrangunasekeran/send-push-notifications-to-ios-devices-via-p8-file-xcode-8-and-swift-3-8wpot2yn9
+
+https://www.appcoda.com/ios-programming-local-notification-tutorial/
+https://www.appcoda.com/local-notifications-ios8/
+https://useyourloaf.com/blog/local-notifications-with-ios-10/
+http://www.techotopia.com/index.php/An_iOS_10_Local_Notification_Tutorial
+https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SchedulingandHandlingLocalNotifications.html
+http://hayageek.com/local-notifications-ios-example/
+
+
+----------------------------iOS sqlite----------------------------------------
+https://www.raywenderlich.com/167743/sqlite-swift-tutorial-getting-started
+https://www.appcoda.com/tag/sqlite/
+https://www.sitepoint.com/managing-data-in-ios-apps-with-sqlite/
+https://learniossite.wordpress.com/2016/09/27/sqlite3-database-manager-in-swift-3/
+https://www.appcoda.com/sqlite-database-ios-app-tutorial/
+https://www.tutorialspoint.com/ios/ios_sqlite_database.htm
+http://www.techotopia.com/index.php/An_Example_SQLite_based_iPhone_Application
+https://www.raywenderlich.com/913/sqlite-tutorial-for-ios-making-our-app
+
 
 
 ---------------------Autolayout---------------------
@@ -264,6 +402,13 @@ https://www.youtube.com/watch?v=9RydRg0ZKaI&list=PL0dzCUj1L5JHdeOlzJtp5zlsdrliJT
 
 ---------------------Android UI---------------------
 https://www.youtube.com/results?search_query=slidenerd+android
+
+--------------------Android Third Party--------------
+https://github.com/wasabeef/awesome-android-libraries
+https://medium.freecodecamp.org/25-new-android-libraries-which-you-definitely-want-to-try-at-the-beginning-of-2017-45878d5408c0
+https://infinum.co/the-capsized-eight/top-5-android-libraries-every-android-developer-should-know-about
+https://blog.cloudrail.com/best-android-libraries-for-developers/
+
 
 
 ---------------------Android Selected Topic---------------------
@@ -318,7 +463,18 @@ http://www.vogella.com/tutorials/AndroidCommandLine/article.html
 
 
 
-
+-----------------Java Collection------------------------
+http://www.baeldung.com/java-collections-interview-questions
+https://www.javatpoint.com/java-collections-interview-questions
+http://javahungry.blogspot.com/2015/05/50-java-collections-interview-questions-and-answers.html
+http://javarevisited.blogspot.in/2011/11/collection-interview-questions-answers.html
+https://howtodoinjava.com/interview-questions/useful-java-collection-interview-questions/
+https://beginnersbook.com/2015/03/java-collections-interview-questions-and-answers/
+http://www.techbeamers.com/java-collection-interview-questions-developers/
+http://www.java67.com/2012/10/java-interview-questions-for-2-to-3-4-years-experienced.html
+http://www.javatechblog.com/java/frequently-asked-java-collections-interview-questions-and-answers/
+https://www.journaldev.com/1330/java-collections-interview-questions-and-answers
+http://www.javamadesoeasy.com/2015/05/collection-top-50-interview-questions.html
 
 
 -----------------Git------------------------
@@ -881,3 +1037,7 @@ Weekend
 4) iOS - tableview, collectionview,  core data and sqlite practical, Alamofire, GCD, Blocks
 5) datastructure array video
 6) Observer, Notification and Delegate
+
+
+JS
+https://egghead.io/courses/understand-javascript-s-this-keyword-in-depth?utm_source=drip&utm_medium=email&utm_campaign=eoy2017&utm_term=javascript&utm_content=javascript-this-correction
