@@ -279,6 +279,22 @@ http://jayeshkawli.ghost.io/list-of-ios-interview-questions-for-ios-developers/
 http://www.sm-cloud.com/ios-interview-questions-for-senior-developers-2017/
 https://blog.udacity.com/2014/11/your-top-10-swift-questions-answered.html
 
+---------------------Swift Topic---------------------
+
+--------guard statment---------
+https://thatthinginswift.com/guard-statement-swift/
+https://stackoverflow.com/questions/30791488/swifts-guard-keyword
+https://stackoverflow.com/questions/32256834/swift-guard-vs-if-let?noredirect=1&lq=1
+https://stackoverflow.com/questions/34703089/what-is-basic-difference-between-guard-statement-and-if-else-statement?noredirect=1&lq=1
+https://medium.com/@mimicatcodes/unwrapping-optional-values-in-swift-3-0-guard-let-vs-if-let-40a0b05f9e69
+https://www.programiz.com/swift-programming/guard
+http://www.codingexplorer.com/the-guard-statement-in-swift-2/
+https://appventure.me/2016/03/29/three-tips-for-clean-swift-code/
+
+---------------------iOS Topic---------------------
+https://developer.apple.com/library/content/navigation/#section=Resource%20Types&topic=Guides
+
+
 
 ---------------------Swift Topics---------------------
 - Custom Encoding and Decoding Keys
@@ -328,6 +344,7 @@ https://www.youtube.com/user/CodeWithChris/playlists
 
 
 -------------------core data----------------------
+https://developer.apple.com/library/content/documentation/DataManagement/Devpedia-CoreData/coreDataOverview.html#//apple_ref/doc/uid/TP40010398-CH28-SW1
 http://qs4int.blogspot.in/2013/01/core-data.html
 https://www.quora.com/What-are-the-questions-can-be-asked-on-core-data-in-any-iOS-interview
 http://www.c-sharpcorner.com/UploadFile/d49768/difference-between-coredata-and-database-in-iphone/
@@ -879,7 +896,25 @@ https://chrisrng.svbtle.com/lru-cache-in-javascript
 https://alaindefrance.wordpress.com/2014/10/05/lru-cache-implementation/
 https://sycure.wordpress.com/2015/09/03/least-recently-used-or-lru-cache-a-simple-implementation-in-java/
 https://www.codementor.io/nihantanu/21-essential-javascript-tech-interview-practice-questions-answers-du107p62z
-
+https://www.code-sample.com/2015/04/javascript-interview-questions-answers.html
+http://www.testingbrain.com/interview/javascript-questions.html
+https://tekslate.com/javascript-interview-questions-answers
+https://javascript.info/class-patterns
+https://github.com/mbeaudru/modern-js-cheatsheet
+https://medium.com/@PitaJ/javascript-inheritance-patterns-179d8f6c143c
+https://learn.co/lessons/javascript-inheritance-patterns
+https://stackoverflow.com/questions/19633762/classical-inheritance-vs-protoypal-inheritance-in-javascript
+https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
+https://stackoverflow.com/questions/2800964/benefits-of-prototypal-inheritance-over-classical
+http://aaditmshah.github.io/why-prototypal-inheritance-matters/
+http://ngninja.com/posts/prototypal-vs-classical-inheritance
+https://javascript.info/prototype-inheritance?map
+https://medium.com/@kevincennis/prototypal-inheritance-781bccc97edb
+https://jeremenichelli.io/2014/06/classic-inheritance-vs-prototypal-inheritance/
+https://edgecoders.com/javascript-interview-questions-javascript-is-a-prototypal-language-what-do-i-mean-by-this-76937a9aa42a
+http://raganwald.com/2014/07/09/javascript-constructor-problem.html
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor
+https://www.doppnet.com/10-advanced-javascript-interview-questions.html
 
 https://www.youtube.com/watch?v=yo3MJPcVJc8
 https://www.youtube.com/watch?v=oxoFVqetl1E
