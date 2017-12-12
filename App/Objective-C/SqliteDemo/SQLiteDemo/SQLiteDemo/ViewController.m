@@ -17,6 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    dispatch_queue_t myQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_async(myQueue, ^{
+        printf("Do some work here.\n");
+        
+    });
+    
+    dispatch_async(myQueue, ^{
+        printf("Do some work here.................\n");
+        
+    });
+    
     [self getDatabasePath];
     [self createTable];
     [self insertData];
