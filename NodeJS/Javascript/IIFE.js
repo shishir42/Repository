@@ -41,3 +41,8 @@ console.log(counter.get());
 counter.set(6);
 counter.increment();
 console.log(counter.get());
+
+
+
+// (function foo(){})();
+// console.log(foo); //reference error 

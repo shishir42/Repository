@@ -1062,6 +1062,7 @@ https://sathyalog.wordpress.com/tag/difference-between-broadcast-and-emit/
 
 
 ------------------------------NodeJS-----------------------
+
 https://edgecoders.com/how-well-do-you-know-node-js-36b1473c01c8#.md45d8pbr
 https://www.tutorialspoint.com/nodejs/nodejs_interview_questions.htm
 https://blog.risingstack.com/node-js-interview-questions/
@@ -1087,7 +1088,9 @@ https://www.youtube.com/watch?v=nZRbnBBupBI
 
 https://www.youtube.com/watch?v=wtIvu085uU0
 https://www.youtube.com/watch?v=uk2gSHbnhAI
-https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8
+https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8 (Complete)
+https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists ---(Inprogress)
+https://www.youtube.com/watch?v=uk2gSHbnhAI&list=PL9ooVrP1hQOHDHAMA5egjL5MrbnNIuJqZ
 https://www.youtube.com/watch?v=eB9Fq9I5ocs
 https://www.youtube.com/watch?v=pWbMrx5rVBE
 https://www.youtube.com/watch?v=qrIvv6OTN2Y&t=2204s
@@ -1160,6 +1163,7 @@ https://www.youtube.com/watch?v=PENcqjVKqr4
 https://www.youtube.com/watch?v=gJFG04Sy6NY
 
 ----------------------Big Data-----------------------------
+https://www.youtube.com/watch?v=zez2Tv-bcXY&list=PL9ooVrP1hQOFrYxqxb0NJCdCABPZNo0pD --
 https://www.youtube.com/watch?v=zez2Tv-bcXY&t=1s
 https://www.youtube.com/watch?v=tpspO9K28PM
 https://www.youtube.com/watch?v=Y6Ev8GIlbxc
@@ -1258,3 +1262,35 @@ https://msbiskills.com/category/sql-server/tricky-sql-queries/
 https://msbiskills.com/tag/tricky-sql-queries-for-interview/page/2/
 http://www.geekinterview.com/Interview-Questions/Database/SQL
 http://www.venkateswarlu.net/Tip_Of_The_Day.aspx?Tip=SQL-Server-:-3-Tricky-SQL-Queries-Interview-Questions-and-Answers
+
+
+-----------------------HTML Responsive Layout ----------------------
+https://www.youtube.com/watch?v=Wm6CUkswsNw&t=474s
+https://www.youtube.com/watch?v=PJHBKwbf4Us&t=2084s
+https://www.youtube.com/watch?v=muZ0JYBCnrU&t=11s
+https://www.youtube.com/watch?v=HgwCeNVPlo0
+https://www.youtube.com/watch?v=jV8B24rSN5o
+https://www.youtube.com/watch?v=M3qBpPw77qo
+https://www.youtube.com/watch?v=3vJE3bVoF-Q
+https://www.youtube.com/watch?v=5GGhOJWlVfM
+https://www.youtube.com/watch?v=M3qBpPw77qo
+https://www.youtube.com/watch?v=qlA7dputiNc
+https://www.youtube.com/watch?v=eIWRbvE1B2E
+https://www.youtube.com/watch?v=5GcQtLDGXy8
+https://www.youtube.com/watch?v=yfoY53QXEnI
+https://www.youtube.com/watch?v=fA1NW-T1QXc&t=742s
+https://www.youtube.com/watch?v=5xzaGSYd7jM
+https://www.youtube.com/watch?v=iXLZryDqtKQ
+https://www.youtube.com/watch?v=jV8B24rSN5o
+https://www.youtube.com/watch?v=BZ0Js9hjaB8
+https://www.youtube.com/watch?v=HgwCeNVPlo0&t=13s
+https://www.youtube.com/watch?v=rErAwncfzVs
+https://www.youtube.com/watch?v=TrLN2YId-5M
+https://www.youtube.com/watch?v=H3LRtAm2SOo
+https://www.youtube.com/watch?v=v5KzBPUEgGQ
+https://www.youtube.com/watch?v=Q17nvi9cFBo
+
+https://learn.onemonth.com/responsive-vs-adaptive-vs-fluid-design/
+https://www.markupbox.com/blog/fixed-vs-fluid-vs-adaptive-vs-responsive-layout/
+https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
+https://usabilitygeek.com/adaptive-vs-responsive-design/

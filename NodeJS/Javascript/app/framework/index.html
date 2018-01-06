@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<script src="lib.js"></script>
+<script>
+  window.onload = function(){
+    console.log($('div').html());
+    console.log($('div').attr('title'));
+    console.log($('div').attr('test', "test value"));
+    console.log($('div').attr('test', "test value").html());
+
+    $('div').on('click', function(event){
+      console.log(event);
+    });
+
+  }
+</script>
+<body>
+  <div title="yooo" >hi</div>
+</body>
+</html>

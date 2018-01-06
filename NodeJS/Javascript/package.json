@@ -1,0 +1,15 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "This is sample demo",
+  "main": "IIFE.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jsdom": "^11.5.1"
+  }
+}

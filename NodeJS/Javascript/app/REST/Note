@@ -1,0 +1,48 @@
+export PATH="/Users/shishirroy/Downloads/Github/Repository/MongoDB/mongodb/bin"
+
+mongod --dbpath /Users/shishirroy/Downloads/Github/Repository/MongoDB/data/db
+
+I NETWORK  [initandlisten] waiting for connections on port 27017
+
+
+npm -init y
+npm install express --save
+npm install nodemon --save-dev
+--> nodemon index
+npm install body-parser --save
+npm install mongoose --save
+npm start
+
+
+Schema
+{
+  name: String,
+  rank: String,
+  availability: Boolean
+}
+
+GET/POST
+http://localhost:4000/api/ninjas
+
+PUT/DELETE
+http://localhost:4000/api/ninjas/12345
+{
+  "name": "abc",
+  "rank": "zz",
+  "available": false
+}
+
+http://localhost:4000/index.html
+https://robomongo.org/download
+
+https://github.com/iamshaunjp/rest-api-playlist/tree/master
+https://www.npmjs.com/package/mongoose
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+https://docs.mongodb.com/ecosystem/drivers/
+https://docs.mongodb.com/v3.0/faq/fundamentals/#what-kind-of-database-is-mongodb
+https://docs.mongodb.com/manual/tutorial/query-documents/
+
+
+Paddington Official Trailer #1 (2014) - Nicole Kidman, Colin Firth Movie HD
+Paddington 2 Official Trailer #2 (2018) Hugh Grant Animated Movie HD
+Peter Rabbit Official Trailer #3 (2018) Margot Robbie, Daisy Ridley Animated Movie HD

@@ -98,7 +98,7 @@ Answer: Though you are passing empty string to the string constructor, it is cre
 More precisely a instance of String object. It becomes an object. Hence, it is not false. so, it is truthy.
 
 
-https://torrents.me/proxy/torrentz2/
+
 https://www.youtube.com/watch?v=xizFJHKHdHw&list=PL7pEw9n3GkoW5bYOhVAtmJlak3ZK7SaDf
 https://www.bennadel.com/blog/1796-javascript-array-methods-unshift-shift-push-and-pop.htm
 
@@ -134,3 +134,8 @@ https://www.w3schools.com/cssref/css_selectors.asp
 
 https://www.cronj.com/blog/why-immurability-is-so-important/
 https://www.cronj.com/blog/category/interview-questions/
+
+Design Patterns
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know

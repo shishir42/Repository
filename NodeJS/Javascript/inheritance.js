@@ -1049,3 +1049,42 @@ Output: Delete----> Student1
 https://www.cronj.com/blog/wp-content/uploads/Untitled-Diagram-5.png
 https://jsfiddle.net/tb398oq8/2/
 https://jsfiddle.net/8spdbasb/
+
+
+//classical prototypes
+function inherits(ctor, superCtor) {
+  ctor.super_ = superCtor;
+  ctor.prototype = Object.create(superCtor.prototype, {
+    constructor: {
+      value: ctor,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+};
+
+var Person = function(name){
+  this.name = name;
+}
+
+Person.prototype.sayName = function(){
+  console.log(this);
+  console.log(this.name);
+}
+
+var john = new Person('john');
+var bobby = new Person('bobby');
+john.sayName();
+bobby.sayName();
+
+
+var Friend = function(name){
+  //Person.call(this, name);
+  Friend.super_.call(this, name);
+}
+
+inherits(Friend, Person);
+
+var julia = new Friend("aaa");
+julia.sayName();
