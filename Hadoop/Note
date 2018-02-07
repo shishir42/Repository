@@ -3,6 +3,7 @@ https://www.youtube.com/watch?v=PxkM3rXqz6k&list=PL9ooVrP1hQOFR25JoQW3h3n5pBs77e
 https://www.geeksforgeeks.org/java/
 https://practice.geeksforgeeks.org/topic-tags/#algorithms?ref=taocp
 http://tutorials.jenkov.com/java-concurrency/index.html
+http://www.codenuclear.com/difference-between-hashmap-hashtable/
 https://www.youtube.com/watch?v=0GkqhLcym48&list=PL3618681FEEDA821F
 https://www.youtube.com/watch?v=0hwVWkBsSsY&list=PLC01C9BB93F67348C
 https://www.youtube.com/watch?v=oYXivKMSEqM
@@ -82,3 +83,176 @@ https://www.youtube.com/watch?v=8hOHkQeTsSM
 https://www.youtube.com/watch?v=pWVUsaiL51Y
 https://www.youtube.com/watch?v=cNEz-UWxyn4
 https://www.youtube.com/watch?v=NKBUbUiedzc&list=PL5-lf7VniEzXlp1EHQLUyMPU9LIYR7l-l
+
+Hadoop
+https://techvidvan.com/tutorials/limitations-of-hadoop-and-solutions/
+https://www.quora.com/What-is-the-difference-between-big-data-and-Hadoop-developer-and-administrator
+https://techvidvan.com/tutorials/hadoop-ecosystem-tutorial/
+
+
+
+
+https://www.youtube.com/watch?v=_MYiF7VBOgY&list=PL9ooVrP1hQOFR25JoQW3h3n5pBs77e6KU&index=9
+https://www.w3schools.com/sql/sql_distinct.asp
+https://www.geeksforgeeks.org/java/
+http://codepumpkin.com/morgan-stanley-interview-questions-set-2/
+http://codepumpkin.com/create-immutable-class-java/
+http://codepumpkin.com/category/interview-questions/core-java-interview-questions/
+http://codepumpkin.com/category/core-java/java-multithreading/
+http://codepumpkin.com/snakes-n-ladders/
+http://codepumpkin.com/n-queen-problem/
+https://www.journaldev.com/1260/collections-in-java-tutorial
+https://www.journaldev.com/java-interview-questions?utm_source=website&utm_medium=menubar&utm_campaign=Top-Menu-Bar
+https://www.javatpoint.com/difference-between-final-finally-and-finalize
+http://www.java2novice.com/java_interview_questions/garbage-collector-not-in-use/
+https://we-are.bookmyshow.com/understanding-deep-and-shallow-copy-in-javascript-13438bad941c
+https://www.edureka.co/big-data-and-hadoop
+
+Collection Framework
+https://www.youtube.com/watch?v=Bqv4At5vHVQ&list=PLd3UqWTnYXOklywocjGz7Z02rqbLegX22
+https://www.youtube.com/watch?v=rI3VkItC0eA&list=PLd3UqWTnYXOkVR3OR9UZGyEt9RFUbaTMZ
+
+Generics
+https://www.youtube.com/watch?v=watjoMfP-3M&list=PLd3UqWTnYXOn4AAHRh5lmOXhoU0tZwTfU
+
+Multithreading
+https://www.youtube.com/watch?v=Hysb7hXp8B0&list=PLd3UqWTnYXOlHj_fVVjUIVHjD5uEy2kk4
+https://www.youtube.com/watch?v=Tz9z4v9t_Qg&list=PL-8TVnCXtjy95uNn0y95zUrsfi4OwK3iD
+
+Garbage collections
+https://www.youtube.com/watch?v=emkpyQid45c&list=PLd3UqWTnYXOllQyx0M9BgrqdRno8HMaU0
+https://www.youtube.com/watch?v=15o4-Qb--zg&list=PLd3UqWTnYXOkkOHAo6LaZg4i3HgyOM7A5
+https://www.youtube.com/watch?v=CVjMPbXRrUc&list=PL-8TVnCXtjy_z34ePDYFS06d8t-1as4b2
+
+
+1.8
+https://www.youtube.com/watch?v=hXsPYDhEIuE&list=PLd3UqWTnYXOk7SMynJroNUzo5v0RMIF8X
+
+Java 9
+https://www.youtube.com/watch?v=K8Jc_EaBVMI&list=PLd3UqWTnYXOlcXp3bEgxelRegCgnAvcNe
+
+OCJP
+https://www.youtube.com/watch?v=Mp4Fy9TDU_Y&list=PLd3UqWTnYXOn7zNVRm_ZjnWqnf5osnKxq
+
+Core Java With OCJP/SCJP
+https://www.youtube.com/watch?v=-qrKA1aWMZs&list=PLd3UqWTnYXOlEa6-58nC6bnpx43VZiTnN
+
+Inner CLASSES
+https://www.youtube.com/watch?v=DcFWgoKs5B0&list=PLd3UqWTnYXOnubQH6Gt8O8Dg-115U0ftk
+
+
+I/O Stream
+https://www.youtube.com/watch?v=v4HS1Zhdh98&list=PLd3UqWTnYXOnCS4GEeEE-m47vN3Ha2b-K
+https://www.youtube.com/watch?v=rxo1SZmq9VE&list=PLd3UqWTnYXOkEwNL3uI7PSS-FDAxhtXJ3
+
+
+INTRODUCTION
+
+Why Java
+Paradigms
+Diff b/w Java & Other (C,C++)
+Java history
+Java features
+Java programming format
+Java Tokens
+Java Statements
+Java Data Types
+Typecasting
+Arrays
+OOPS
+
+Introduction
+Class
+Object
+Static Keywords
+Constructors
+This Key Word
+Inheritance
+Super Key Word
+Polymorphism (Over Loading & Over Riding)
+Abstraction
+Encapsulation
+Abstract Classes
+Interfaces
+STRING MANIPULATIONS
+
+String
+String Buffer
+String Tokenizer
+
+PACKAGES
+
+Introduction to all predefined packages
+User Defined Packages
+Access Specifiers
+
+EXCEPTION HANDLING
+
+Introduction
+Pre Defined Exceptions
+Try-Catch-Finally
+Throws, throw
+User Defined Exception examples
+
+MULTITHREADING
+
+Introduction
+Thread Creations
+Thread Life Cycle
+Life Cycle Methods
+Synchronization
+Wait() notify() notify all() methods
+
+I/O STREAMS
+
+Introduction
+Byte-oriented streams
+Character – oriented streams
+File
+Random-access file
+Serialization
+
+NETWORKING
+
+Introduction
+Socket, Server socket
+Client –Server Communication
+
+WRAPPERCLASSES
+
+Introduction
+Byte, Short, Integer, Long, Float, Double, Character, Boolean classes.
+
+COLLECTION FRAME WORK
+
+Introduction
+Util Package interfaces, List, Set, Map
+List interface 7 its classes
+Set interface & its classes
+Map interface & its classes
+
+INNER CLASSES
+
+Introduction
+Member inner class
+ Static inner class
+ Local inner class
+Anonymous inner class
+
+AWT
+
+Introduction
+Components
+Event-Delegation-Model
+Listeners
+Layouts
+Individual components Lable, Button, CheckBox, Radio Button,
+Choice, List, Menu, Text Field, Text Area
+
+SWING(JFC)
+
+Introduction Diff b/w awt and swing
+Components hierarchy
+Panes
+Individual Swings components Jlabel,
+JButton, JTextField, JTextAres.
