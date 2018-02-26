@@ -239,20 +239,35 @@ Member inner class
  Local inner class
 Anonymous inner class
 
-AWT
 
-Introduction
-Components
-Event-Delegation-Model
-Listeners
-Layouts
-Individual components Lable, Button, CheckBox, Radio Button,
-Choice, List, Menu, Text Field, Text Area
+Data Structure
+https://www.youtube.com/watch?v=C42BRjp0kmM&list=PLAa4Q914LSAas7bQFiSFD6tUs1Y2tjivn
 
-SWING(JFC)
 
-Introduction Diff b/w awt and swing
-Components hierarchy
-Panes
-Individual Swings components Jlabel,
-JButton, JTextField, JTextAres.
+CSS
+https://www.youtube.com/watch?v=Y7pT1zZLJb0&list=PL1YS4hYJip06sMgDRXQbWb3olYXvbFdr-
+
+
+Android
+https://blog.cloudrail.com/best-android-libraries-for-developers/
+https://medium.freecodecamp.org/25-new-android-libraries-which-you-definitely-want-to-try-at-the-beginning-of-2017-45878d5408c0
+https://github.com/codepath/android_guides/wiki/Must-Have-libraries
+https://github.com/wasabeef/awesome-android-libraries#networking
+http://www.vogella.com/tutorials/android.html
+
+
+
+Java
+https://www.geeksforgeeks.org/string-data-structure/#counting
+https://www.geeksforgeeks.org/reverse-an-array-without-affecting-special-characters/
+https://www.geeksforgeeks.org/array-data-structure/#introduction
+https://www.geeksforgeeks.org/java/#Overview
+https://androidcodingworld.blogspot.in/2016/06/reverse-array-without-affecting-special.html
+http://www.codenuclear.com/memory-utilization-in-java/
+http://www.codenuclear.com/7-common-memory-errors-in-java/
+http://www.codenuclear.com/memory-allocation-in-java/
+http://www.codenuclear.com/string-facts/
+http://www.codenuclear.com/analyze-memory-map-with-jmap-in-java/
+https://stackoverflow.com/questions/1897993/what-is-the-difference-between-concurrent-programming-and-parallel-programming
+https://www.journaldev.com/java-interview-questions?utm_source=website&utm_medium=menubar&utm_campaign=Top-Menu-Bar
+https://www.journaldev.com/1260/collections-in-java-tutorial#java-collections-classes
