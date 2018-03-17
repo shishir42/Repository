@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F2527A56-FFD5-41AC-A56D-A163415D84E4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OverridingSample/Program.cs">
+    <Files>
+      <File FileName="OverridingSample/Program.cs" Line="15" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OverridingSample PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
